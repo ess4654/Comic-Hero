@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 namespace ComicHero.Controllers
 {
@@ -21,20 +23,41 @@ namespace ComicHero.Controllers
         [SerializeField] private Camera playerCamera;
         [SerializeField] private float cameraOffset;
 
+        /// <summary>
+        ///     The world posiiton of the player.
+        /// </summary>
+        public Vector3 Position => transform.position;
+
         protected Player OtherPlayer => PlayerManager.Instance.Players[(PlayerIndex + 1) % 2];
 
         #endregion
 
         #region ENGINE
 
-        public void FixedUpdate()
+        public static event Action PlayerCameraChanged;
+
+        private void OnEnable()
+        {
+            RenderPipelineManager.beginCameraRendering += UpdatePlayerCamera;
+        }
+
+        private void OnDisable()
+        {
+            RenderPipelineManager.beginCameraRendering += UpdatePlayerCamera;
+        }
+
+        private void UpdatePlayerCamera(ScriptableRenderContext context, Camera camera)
         {
             if (playerCamera != null)
             {
                 var otherPlayerX = OtherPlayer.transform.position.x;
-                bool isLeft = otherPlayerX > transform.position.x;
+                var playerX = transform.position.x;
+                var samePosition = playerX == otherPlayerX;
+                bool isLeft = otherPlayerX >= playerX;
                 var cameraX = (isLeft ? -1 : 1) * cameraOffset;
-                playerCamera.transform.localPosition = new Vector3(cameraX, 0, -10);
+                playerCamera.transform.localPosition = new Vector3(cameraX * (samePosition && playerIndex == 1 ? -1 : 1), 0, -10);
+
+                PlayerCameraChanged?.Invoke(); //subscribed event
             }
         }
 

@@ -1,5 +1,5 @@
-using ComicHero;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace ComicHero.Controllers
@@ -19,6 +19,31 @@ namespace ComicHero.Controllers
         ///     All spawned players in the level.
         /// </summary>
         public List<Player> Players { get; private set; }
+
+        /// <summary>
+        ///     Gets the player at the given index.
+        /// </summary>
+        /// <param name="playerIndex">Index of the player.</param>
+        /// <returns>Reference to the player.</returns>
+        public Player GetPlayer(int playerIndex) => Players?[playerIndex];
+
+        /// <summary>
+        ///     Gets the position of the player at the given index.
+        /// </summary>
+        /// <param name="playerIndex">Index of the player.</param>
+        /// <returns>Global position of the player</returns>
+        public Vector3 GetPlayerPosition(int playerIndex) =>
+            GetPlayer(playerIndex).Position;
+
+        /// <summary>
+        ///     The leftmost player of the game.
+        /// </summary>
+        public Player LeftPlayer => Players.OrderBy(x => x.transform.position.x ).FirstOrDefault();
+
+        /// <summary>
+        ///     The rightmost player of the game.
+        /// </summary>
+        public Player RightPlayer => Players.OrderBy(x => x.transform.position.x).Reverse().FirstOrDefault();
 
         #endregion
 
