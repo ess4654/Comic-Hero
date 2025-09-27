@@ -7,7 +7,10 @@ namespace ComicHero.Controllers
     /// </summary>
     public class ItemSpawner : MonoBehaviour
     {
+        [SerializeField, Min(0)] private float spawnProbability = 0.5f;
         [SerializeField] private GameObject[] items;
+
+        private static Transform spawnBin;
 
         private void OnEnable()
         {
@@ -21,15 +24,21 @@ namespace ComicHero.Controllers
 
         private void PanelsLoaded()
         {
-            if(UnityEngine.Random.value < 0.5)
+            if(Random.value > Mathf.Clamp01(spawnProbability))
             {
                 Destroy(gameObject);
                 return;
             }
 
+            if (spawnBin == null)
+                spawnBin = new GameObject("@Items").transform;
+
             var itemToSpawn = items.SelectRandom();
             if(itemToSpawn != null)
-                Instantiate(itemToSpawn, transform);
+            {
+                var item = Instantiate(itemToSpawn, spawnBin);
+                item.transform.position = transform.position;
+            }
         }
     }
 }

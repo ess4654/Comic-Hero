@@ -44,4 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 381284d03d9444c44bb4319ba1c2bb58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnProbability: 0.3
   items: []
