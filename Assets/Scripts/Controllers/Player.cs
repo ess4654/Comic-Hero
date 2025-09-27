@@ -34,8 +34,22 @@ namespace ComicHero.Controllers
                 var otherPlayerX = OtherPlayer.transform.position.x;
                 bool isLeft = otherPlayerX > transform.position.x;
                 var cameraX = (isLeft ? -1 : 1) * cameraOffset;
-                playerCamera.transform.position = new Vector3(cameraX, 0, -10);
+                playerCamera.transform.localPosition = new Vector3(cameraX, 0, -10);
             }
+        }
+
+        #endregion
+
+        #region METHODS
+
+        /// <summary>
+        ///     Sets the player's camera texture to render to.
+        /// </summary>
+        /// <param name="cameraTexture">The texture to render the camera to.</param>
+        public void SetCameraTexture(RenderTexture cameraTexture)
+        {
+            if (playerCamera != null)
+                playerCamera.targetTexture = cameraTexture;
         }
 
         #endregion

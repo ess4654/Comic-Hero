@@ -41,8 +41,17 @@ TagManager:
   - name: References
     uniqueID: 1152112195
     locked: 0
+  - name: Comic Panels
+    uniqueID: 947948981
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: World
+    uniqueID: 3700261181
+    locked: 0
+  - name: UI
+    uniqueID: 2868296461
     locked: 0
   m_RenderingLayers:
   - Default

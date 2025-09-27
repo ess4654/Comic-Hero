@@ -13,6 +13,7 @@ namespace ComicHero.Controllers
 
         [SerializeField] private Player playerPrefab;
         [SerializeField] private Transform[] spawnPoints;
+        [SerializeField] private RenderTexture[] playerCameraTextures;
 
         /// <summary>
         ///     All spawned players in the level.
@@ -34,6 +35,8 @@ namespace ComicHero.Controllers
             {
                 var player = SpawnPlayer(spawnPoints[i].position);
                 player.PlayerIndex = i;
+                if(i < playerCameraTextures.Length)
+                    player.SetCameraTexture(playerCameraTextures[i]);
                 Players.Add(player);
             }
         }
@@ -44,7 +47,7 @@ namespace ComicHero.Controllers
             {
                 var player = Instantiate(playerPrefab);
                 player.transform.position = position;
-                return Instantiate(player);
+                return player;
             }
             else
                 return null;
