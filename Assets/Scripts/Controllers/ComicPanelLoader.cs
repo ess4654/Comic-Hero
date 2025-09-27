@@ -21,6 +21,8 @@ namespace ComicHero.Controllers
 
         #endregion
 
+        private void OnEnable() => LoadComicPanels();
+
         #region METHODS
 
         /// <summary>
@@ -28,6 +30,14 @@ namespace ComicHero.Controllers
         /// </summary>
         public void LoadComicPanels()
         {
+            //remove old comic panels
+            if(panel1Mount.childCount > 0)
+                Destroy(panel1Mount.GetChild(0).gameObject);
+            if (panel2Mount.childCount > 0)
+                Destroy(panel2Mount.GetChild(0).gameObject);
+            if (panel3Mount.childCount > 0)
+                Destroy(panel3Mount.GetChild(0).gameObject);
+
             //get random comic panels
             var panelA = comicPanels.SelectRandom();
             var panelB = comicPanels.SelectRandom();

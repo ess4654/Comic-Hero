@@ -385,6 +385,28 @@ namespace ComicHero.Views
         }
 
         /// <summary>
+        ///     Spacing between vertical lines.
+        /// </summary>
+        public float LineSpacing
+        {
+            get
+            {
+                if (fillType == FillType.Stripes)
+                    return stripe.spacing;
+
+                return 0;
+            }
+            set
+            {
+                if (fillType == FillType.Stripes)
+                {
+                    stripe.spacing = value;
+                    isDirty = true;
+                }
+            }
+        }
+
+        /// <summary>
         ///     The size of the comic fill elements.
         /// </summary>
         public float Size

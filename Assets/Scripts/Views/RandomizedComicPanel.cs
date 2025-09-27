@@ -13,13 +13,22 @@ namespace ComicHero.Views
         #region VARIABLE DECLARATIONS
 
         [SerializeField] private FillType[] randomFills = FillTypeOptions.Where(x => x != FillType.Texture).ToArray();
+
+        [Header("Gradient")]
         [SerializeField] private GradientColors[] gradientPresets = new[]
         {
-            //Yellow
+            //Yellow 1
             new GradientColors
             (
                 new Color (0.70588f, 0.69411f, 0.11372f),
                 new Color (0.67058f, 0.58431f, 0.16078f)
+            ),
+
+            //Yellow 2
+            new GradientColors
+            (
+                new Color (0.93333f, 0.81568f, 0.00000f),
+                new Color (0.86666f, 0.65882f, 0.00000f)
             ),
 
             //Red
@@ -29,11 +38,18 @@ namespace ComicHero.Views
                 new Color (1.00000f, 0.23270f, 0.13679f)
             ),
 
-            //Blue
+            //Blue 1
             new GradientColors
             (
                 new Color (0.16470f, 0.56078f, 0.67450f),
                 new Color (0.11764f, 0.50196f, 0.71372f)
+            ),
+
+            //Blue 2
+            new GradientColors
+            (
+                new Color (0.10588f, 0.18823f, 0.67450f),
+                new Color (0.15294f, 0.28235f, 0.64313f)
             ),
 
             //Purple
@@ -69,9 +85,28 @@ namespace ComicHero.Views
             (
                 new Color (0.81568f, 0.81568f, 0.81568f),
                 new Color (0.77647f, 0.77647f, 0.77647f)
+            ),
+
+            //Greyscale 3
+            new GradientColors
+            (
+                new Color (0.18823f, 0.18823f, 0.18823f),
+                new Color (0.15686f, 0.15686f, 0.15686f)
             )
         };
         [SerializeField] private float gradientFlipProbability = 0.5f;
+
+        [SerializeField] private float randomMaxRotation = 0.45f;
+        [SerializeField] private Vector2 randomCheckerboardScale = new Vector2(0.25f, 3f);
+        
+        [Header("Radial")]
+        [SerializeField] private Vector2 randomLineWidth = new Vector2(0.5f, 1.5f);
+        [SerializeField] private Vector2 randomLineSpacing = new Vector2(0.35f, 1.0f);
+
+        [Header("Radial")]
+        [SerializeField] private float radialMoveProbability = 0.5f;
+        [SerializeField] private Vector2 randomRadialOffsetX = new Vector2(-1.0f, 1.0f);
+        [SerializeField] private Vector2 randomRadialOffsetY = new Vector2(-1.0f, 1.0f);
 
         private GradientColors RandomGradientColor =>
             gradientPresets.Length == 0 ?
@@ -82,11 +117,37 @@ namespace ComicHero.Views
             RandomGradientColor.color1 :
             RandomGradientColor.color2;
 
+        private float RandomCheckerboardSize =>
+            Random.Range(randomCheckerboardScale.x, randomCheckerboardScale.y);
+        
+        private float RandomLineWidth =>
+            Random.Range(randomLineWidth.x, randomLineWidth.y);
+
+        private float RandomLineSpacing =>
+            Random.Range(randomLineSpacing.x, randomLineSpacing.y);
+
+        private float RandomRotation
+        {
+            get
+            {
+                var rand = Random.value;
+                var rValue = randomMaxRotation * (rand < 0.5f ? 1 : -1);
+
+                return Random.Range(rValue > 0f ? 0f : rValue, rValue > 0f ? rValue : 0f);
+            }
+        }
+
+        private Vector2 RandomRadialOffset => new Vector2
+        (
+            Random.Range(randomRadialOffsetX.x, randomRadialOffsetX.y),
+            Random.Range(randomRadialOffsetY.x, randomRadialOffsetY.y)
+        );
+
         private ComicPanel comic;
 
         #endregion
 
-        private void Start()
+        private void OnEnable()
         {
             comic = GetComponent<ComicPanel>();
             var randomFill = randomFills.Where(x => x != FillType.Texture).SelectRandom();
@@ -101,21 +162,36 @@ namespace ComicHero.Views
             }
             else if(randomFill == FillType.Gradient)
             {
+                comic.Rotation = randomMaxRotation;
             }
             else if(randomFill == FillType.Stripes)
             {
+                comic.Rotation = RandomRotation;
+                comic.LineThickness = RandomLineWidth;
+                comic.LineSpacing = RandomLineSpacing;
             }
             else if (randomFill == FillType.Checkerboard)
             {
+                comic.Rotation = RandomRotation;
+                comic.Size = RandomCheckerboardSize;
             }
             else if (randomFill == FillType.Radial)
             {
+                comic.Rotation = Random.Range(0f, 360f);
+                comic.LineThickness = RandomLineWidth;
+                
+                if(Random.value < Mathf.Clamp01(gradientFlipProbability))
+                    comic.Offset = RandomRadialOffset;
             }
             else if (randomFill == FillType.Stars)
             {
+                comic.Rotation = RandomRotation;
+                comic.Size = RandomCheckerboardSize;
             }
             else if (randomFill == FillType.PokaDots)
             {
+                comic.Rotation = RandomRotation;
+                comic.Size = RandomCheckerboardSize;
             }
         }
 

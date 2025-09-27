@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2732664221115093413}
   - component: {fileID: 4001063801532997351}
   - component: {fileID: 6121505033181529580}
+  - component: {fileID: 5998526528192899472}
   m_Layer: 0
   m_Name: Comic Panel
   m_TagString: Untagged
@@ -113,7 +114,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 82adafa3f615c794582c1057bc2226aa, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -196,3 +197,47 @@ MonoBehaviour:
     color2: {r: 0, g: 0, b: 0, a: 1}
     scale: 1
     rotation: 0
+--- !u!114 &5998526528192899472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3805807366278863547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b35cf0762194584d98445ea33486400, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomFills: 00000000010000000300000004000000050000000600000007000000
+  gradientPresets:
+  - color1: {r: 0.70588, g: 0.69411, b: 0.11372, a: 1}
+    color2: {r: 0.67058, g: 0.58431, b: 0.16078, a: 1}
+  - color1: {r: 0.93333, g: 0.81568, b: 0, a: 1}
+    color2: {r: 0.86666, g: 0.65882, b: 0, a: 1}
+  - color1: {r: 0.74509, g: 0.14901, b: 0.0745, a: 1}
+    color2: {r: 1, g: 0.2327, b: 0.13679, a: 1}
+  - color1: {r: 0.1647, g: 0.56078, b: 0.6745, a: 1}
+    color2: {r: 0.11764, g: 0.50196, b: 0.71372, a: 1}
+  - color1: {r: 0.10588, g: 0.18823, b: 0.6745, a: 1}
+    color2: {r: 0.15294, g: 0.28235, b: 0.64313, a: 1}
+  - color1: {r: 0.52549, g: 0.11764, b: 0.7098, a: 1}
+    color2: {r: 0.44705, g: 0.1647, b: 0.6745, a: 1}
+  - color1: {r: 0.70588, g: 0.43529, b: 0.11372, a: 1}
+    color2: {r: 0.6745, g: 0.36862, b: 0.1647, a: 1}
+  - color1: {r: 0.11764, g: 0.71764, b: 0.58823, a: 1}
+    color2: {r: 0.16078, g: 0.62352, b: 0.46666, a: 1}
+  - color1: {r: 0.36078, g: 0.36078, b: 0.36078, a: 1}
+    color2: {r: 0.32941, g: 0.32941, b: 0.32941, a: 1}
+  - color1: {r: 0.81568, g: 0.81568, b: 0.81568, a: 1}
+    color2: {r: 0.77647, g: 0.77647, b: 0.77647, a: 1}
+  - color1: {r: 0.18823, g: 0.18823, b: 0.18823, a: 1}
+    color2: {r: 0.15686, g: 0.15686, b: 0.15686, a: 1}
+  gradientFlipProbability: 0.5
+  randomMaxRotation: 0.45
+  randomCheckerboardScale: {x: 0.25, y: 3}
+  randomLineWidth: {x: 0.5, y: 1.5}
+  randomLineSpacing: {x: 0.35, y: 1}
+  radialMoveProbability: 0.5
+  randomRadialOffsetX: {x: -1, y: 1}
+  randomRadialOffsetY: {x: -1, y: 1}

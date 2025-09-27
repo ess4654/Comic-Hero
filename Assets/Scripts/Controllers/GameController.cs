@@ -8,7 +8,6 @@ namespace ComicHero
     {
         private void Start()
         {
-            ComicPanelLoader.Instance.LoadComicPanels();
             PlayerManager.Instance.SpawnPlayers(2);
         }
     }
