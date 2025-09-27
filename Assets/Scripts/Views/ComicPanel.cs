@@ -1,0 +1,585 @@
+using System;
+using UnityEngine;
+
+namespace ComicHero.Views
+{
+    [ExecuteInEditMode]
+    [RequireComponent(typeof(SpriteRenderer))]
+    public class ComicPanel : MonoBehaviour
+    {
+        #region VARIABLE DECLARATIONS
+
+        #region DEFINITIONS
+
+        /// <summary>
+        ///     Defines the types of fill that can be used for the comic panel.
+        /// </summary>
+        public enum FillType
+        {
+            Solid,
+            Gradient,
+            Texture,
+            Stripes,
+            Checkerboard,
+            Radial,
+            Stars,
+            PokaDots
+        }
+
+        /// <summary>
+        ///     List of all fill type options.
+        /// </summary>
+        public static readonly FillType[] FillTypeOptions = new FillType[]
+        {
+            FillType.Solid,
+            FillType.Gradient,
+            FillType.Texture,
+            FillType.Stripes,
+            FillType.Checkerboard,
+            FillType.Radial,
+            FillType.Stars,
+            FillType.PokaDots
+        };
+
+        [Serializable]
+        public class GradientColors
+        {
+            public Color color1 = Color.white;
+            public Color color2 = Color.black;
+
+            public GradientColors() { }
+
+            public GradientColors(Color color1, Color color2)
+            {
+                this.color1 = color1;
+                this.color2 = color2;
+            }
+        }
+
+        [Serializable]
+        public class GradientSetting : GradientColors
+        {
+            public float offset;
+            public float rotation;
+        }
+
+        [Serializable]
+        public class StripeSetting : GradientColors
+        {
+            public float lineWidth = 1;
+            public float spacing = 1;
+            public float rotation;
+        }
+
+        [Serializable]
+        public class CheckerboardSetting : GradientColors
+        {
+            public float scale = 1;
+            public float rotation;
+        }
+
+        [Serializable]
+        public class RadialSetting : GradientColors
+        {
+            public float lineThickness = 1;
+            public float rotation;
+            public Vector2 size = Vector2.one;
+            public Vector2 offset;
+        }
+
+        #endregion
+
+        [SerializeField] private FillType fillType;
+
+        [Header("Color")]
+        [SerializeField] private Color solidColor = Color.white;
+        [SerializeField] private GradientSetting gradientColor;
+
+        [Header("Texture")]
+        [SerializeField] private Texture texture;
+        [SerializeField] private float textureRotation;
+        [SerializeField] private Vector2 textureScale = Vector2.one;
+        [SerializeField] private Vector2 textureOffset;
+
+        [Header("Stripes")]
+        [SerializeField] private StripeSetting stripe;
+
+        [Header("Checkerboard")]
+        [SerializeField] private CheckerboardSetting checkerboard;
+        
+        [Header("Radial")]
+        [SerializeField] private RadialSetting radial;
+
+        [Header("Stars")]
+        [SerializeField] private CheckerboardSetting stars;
+
+        [Header("Poka Dots")]
+        [SerializeField] private CheckerboardSetting pokaDots;
+
+        #region GETTERS & SETTERS
+
+        /// <summary>
+        ///     The fill type used by the comic panel.
+        /// </summary>
+        public FillType Fill
+        {
+            get => fillType;
+            set
+            {
+                fillType = value;
+                isDirty = true;
+            }
+        }
+
+        /// <summary>
+        ///     Solid fill color.
+        /// </summary>
+        public Color SolidColor
+        {
+            get => solidColor;
+            set
+            {
+                solidColor = value;
+                isDirty = true;
+            }
+        }
+
+        /// <summary>
+        ///     Gradient colors used by panel graphics.
+        /// </summary>
+        public GradientColors GradientColor
+        {
+            get
+            {
+                if (fillType == FillType.Gradient)
+                    return gradientColor;
+                else if (fillType == FillType.Stripes)
+                    return stripe;
+                else if (fillType == FillType.Checkerboard)
+                    return checkerboard;
+                else if (fillType == FillType.Radial)
+                    return radial;
+                else if (fillType == FillType.Stars)
+                    return stars;
+                else if (fillType == FillType.PokaDots)
+                    return pokaDots;
+
+                return null;
+            }
+            set
+            {
+                if (fillType == FillType.Gradient)
+                {
+                    gradientColor.color1 = value.color1;
+                    gradientColor.color2 = value.color2;
+                }
+                else if (fillType == FillType.Stripes)
+                {
+                    stripe.color1 = value.color1;
+                    stripe.color2 = value.color2;
+                }
+                else if (fillType == FillType.Checkerboard)
+                {
+                    checkerboard.color1 = value.color1;
+                    checkerboard.color2 = value.color2;
+                }
+                else if (fillType == FillType.Radial)
+                {
+                    radial.color1 = value.color1;
+                    radial.color2 = value.color2;
+                }
+                else if (fillType == FillType.Stars)
+                {
+                    stars.color1 = value.color1;
+                    stars.color2 = value.color2;
+                }
+                else if (fillType == FillType.PokaDots)
+                {
+                    pokaDots.color1 = value.color1;
+                    pokaDots.color2 = value.color2;
+                }
+             
+                isDirty = true;
+            }
+        }
+
+        /// <summary>
+        ///     The offset value of the gradient color.
+        /// </summary>
+        public float GradientOffset
+        {
+            get
+            {
+                if (fillType == FillType.Gradient)
+                    return gradientColor.offset;
+
+                return 0;
+            }
+            set
+            {
+                if (fillType == FillType.Gradient)
+                {
+                    gradientColor.offset = value;
+                    isDirty = true;
+                }
+            }
+        }
+
+        /// <summary>
+        ///     Gradient fill color.
+        /// </summary>
+        public GradientSetting Gradient
+        {
+            get => gradientColor;
+            set
+            {
+                gradientColor = value;
+                isDirty = true;
+            }
+        }
+
+        /// <summary>
+        ///     Texture used as a fill for the comic.
+        /// </summary>
+        public Texture FillTexture
+        {
+            get => texture;
+            set
+            {
+                texture = value;
+                isDirty = true;
+            }
+        }
+
+        /// <summary>
+        ///     Rotation of the comic fill.
+        /// </summary>
+        public float Rotation
+        {
+            get
+            {
+                if (fillType == FillType.Gradient)
+                    return gradientColor.rotation;
+                else if (fillType == FillType.Texture)
+                    return textureRotation;
+                else if (fillType == FillType.Stripes)
+                    return stripe.rotation;
+                else if (fillType == FillType.Checkerboard)
+                    return checkerboard.rotation;
+                else if (fillType == FillType.Radial)
+                    return radial.rotation;
+                else if (fillType == FillType.Stars)
+                    return stars.rotation;
+                else if (fillType == FillType.PokaDots)
+                    return pokaDots.rotation;
+                
+                return 0;
+            }
+            set
+            {
+                if (fillType == FillType.Gradient)
+                    gradientColor.rotation = value;
+                else if (fillType == FillType.Texture)
+                    textureRotation = value;
+                else if (fillType == FillType.Stripes)
+                    stripe.rotation = value;
+                else if (fillType == FillType.Checkerboard)
+                    checkerboard.rotation = value;
+                else if (fillType == FillType.Radial)
+                    radial.rotation = value;
+                else if (fillType == FillType.Stars)
+                    stars.rotation = value;
+                else if (fillType == FillType.PokaDots)
+                    pokaDots.rotation = value;
+
+                isDirty = true;
+            }
+        }
+
+        /// <summary>
+        ///     Scale of checkerboard patterns.
+        /// </summary>
+        public Vector2 Scale
+        {
+            get
+            {
+                if(fillType == FillType.Texture)
+                    return textureScale;
+                else if(fillType == FillType.Radial)
+                    return radial.size;
+
+                return Vector2.one;
+            }
+            set
+            {
+                if (fillType == FillType.Texture)
+                {
+                    textureScale = value;
+                    isDirty = true;
+                }
+                else if (fillType == FillType.Radial)
+                {
+
+                    radial.size = value;
+                    isDirty = true;
+                }
+            }
+        }
+
+        /// <summary>
+        ///     Offset used by the texture and radial settings.
+        /// </summary>
+        public Vector2 Offset
+        {
+            get
+            {
+                if (fillType == FillType.Texture)
+                    return textureOffset;
+                else if (fillType == FillType.Radial)
+                    return radial.offset;
+
+                return Vector2.zero;
+            }
+            set
+            {
+                if (fillType == FillType.Texture)
+                {
+                    textureOffset = value;
+                    isDirty = true;
+                }
+                else if (fillType == FillType.Radial)
+                {
+                    radial.offset = value;
+                    isDirty = true;
+                }
+            }
+        }
+
+        /// <summary>
+        ///     Thickness of lines used for stripes and radial.
+        /// </summary>
+        public float LineThickness
+        {
+            get
+            {
+                if (fillType == FillType.Stripes)
+                    return stripe.lineWidth;
+                else if (fillType == FillType.Radial)
+                    return radial.lineThickness;
+
+                return 0;
+            }
+            set
+            {
+                if (fillType == FillType.Stripes)
+                {
+                    stripe.lineWidth = value;
+                    isDirty = true;
+                }
+                else if (fillType == FillType.Radial)
+                {
+                    radial.lineThickness = value;
+                    isDirty = true;
+                }
+            }
+        }
+
+        /// <summary>
+        ///     The size of the comic fill elements.
+        /// </summary>
+        public float Size
+        {
+            get
+            {
+                if (fillType == FillType.Checkerboard)
+                    return checkerboard.scale;
+                else if (fillType == FillType.Stars)
+                    return stars.scale;
+                else if (fillType == FillType.PokaDots)
+                    return pokaDots.scale;
+
+                return 0;
+            }
+            set
+            {
+                if (fillType == FillType.Checkerboard)
+                {
+                    checkerboard.scale = value;
+                    isDirty = true;
+                }
+                else if (fillType == FillType.Stars)
+                {
+                    stars.scale = value;
+                    isDirty = true;
+                }
+                else if (fillType == FillType.PokaDots)
+                {
+                    pokaDots.scale = value;
+                    isDirty = true;
+                }
+            }
+        }
+
+        #endregion
+
+        private bool isDirty;
+        private SpriteRenderer comic;
+        private MaterialPropertyBlock props;
+
+        private const string KEYWORD_SELECTOR_A = "_FILL_SELECTOR_A";
+        private const string KEYWORD_SELECTOR_B = "_FILL_SELECTOR_B";
+        private const string KEYWORD_SOLID = "_FILL_TYPE_SOLID";
+        private const string KEYWORD_GRADIENT = "_FILL_TYPE_GRADIENT";
+        private const string KEYWORD_TEXTURE = "_FILL_TYPE_TEXTURE";
+        private const string KEYWORD_STRIPE = "_FILL_TYPE_STRIPE";
+        private const string KEYWORD_CHECKERBOARD = "_FILL_TYPE_CHECKERBOARD";
+        private const string KEYWORD_RADIAL = "_FILL_TYPE_RADIAL";
+        private const string KEYWORD_STARS = "_FILL_TYPE_2_STARS";
+        private const string KEYWORD_POKA_DOTS = "_FILL_TYPE_2_POKA_DOT";
+
+        #endregion
+
+        #region ENGINE
+
+        private void Start() => RenderPanel();
+
+        private void OnValidate() => RenderPanel();
+
+        private void LateUpdate()
+        {
+            if (isDirty && Application.isPlaying)
+                RenderPanel();
+        }
+
+        public void RenderPanel()
+        {
+            try
+            {
+                comic = GetComponent<SpriteRenderer>();
+                if(!comic.material.name.Contains("Comic Panel"))
+                    comic.sharedMaterial = Resources.Load<Material>("Dynamic Comic Panels/Comic Panel");
+                props = new MaterialPropertyBlock();
+                comic.GetPropertyBlock(props);
+
+                props.SetTexture("_MainTex", comic.sprite.texture);
+
+                comic.material.DisableKeyword(KEYWORD_SELECTOR_A);
+                comic.material.DisableKeyword(KEYWORD_SELECTOR_B);
+                comic.material.DisableKeyword(KEYWORD_SOLID);
+                comic.material.DisableKeyword(KEYWORD_GRADIENT);
+                comic.material.DisableKeyword(KEYWORD_TEXTURE);
+                comic.material.DisableKeyword(KEYWORD_STRIPE);
+                comic.material.DisableKeyword(KEYWORD_CHECKERBOARD);
+                comic.material.DisableKeyword(KEYWORD_RADIAL);
+                comic.material.DisableKeyword(KEYWORD_STARS);
+                comic.material.DisableKeyword(KEYWORD_POKA_DOTS);
+
+                if (fillType == FillType.Solid)
+                    SetSolidColor();
+                else if (fillType == FillType.Gradient)
+                    SetGradientColor();
+                else if (fillType == FillType.Texture)
+                    SetTexture();
+                else if (fillType == FillType.Stripes)
+                    SetStripe();
+                else if (fillType == FillType.Checkerboard)
+                    SetCheckerboard();
+                else if (fillType == FillType.Radial)
+                    SetRadial();
+                else if (fillType == FillType.Stars)
+                    SetStars();
+                else if (fillType == FillType.PokaDots)
+                    SetPokaDots();
+                else
+                    SetSolidColor();
+
+                comic.SetPropertyBlock(props);
+            } catch { }
+        }
+
+        private void SetSolidColor()
+        {
+            comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
+            comic.material.EnableKeyword(KEYWORD_SOLID);
+            props.SetColor("_Color", solidColor);
+        }
+
+        private void SetGradientColor()
+        {
+            comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
+            comic.material.EnableKeyword(KEYWORD_GRADIENT);
+            props.SetColor("_GradientColor1", gradientColor.color1);
+            props.SetColor("_GradientColor2", gradientColor.color2);
+            props.SetFloat("_GradientOffset", gradientColor.offset);
+            props.SetFloat("_GradientRotation", gradientColor.rotation);
+        }
+
+        private void SetTexture()
+        {
+            comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
+            comic.material.EnableKeyword(KEYWORD_TEXTURE);
+            if (texture == null)
+                texture = Resources.Load<Texture>("Shapes2D/1x1");
+            props.SetTexture("_FillTexture", texture);
+            props.SetColor("_Tint", solidColor);
+            props.SetFloat("_TextureRotation", textureRotation);
+            props.SetVector("_TextureScale", textureScale);
+            props.SetVector("_TextureOffset", textureOffset);
+        }
+
+        private void SetStripe()
+        {
+            comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
+            comic.material.EnableKeyword(KEYWORD_STRIPE);
+            props.SetColor("_StripeColor1", stripe.color1);
+            props.SetColor("_StripeColor2", stripe.color2);
+            props.SetFloat("_StripeWidth", stripe.lineWidth);
+            props.SetFloat("_StripeSpacing", stripe.spacing);
+            props.SetFloat("_StripeRotation", stripe.rotation);
+        }
+
+        private void SetCheckerboard()
+        {
+            comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
+            comic.material.EnableKeyword(KEYWORD_CHECKERBOARD);
+            props.SetColor("_CheckerboardColor1", checkerboard.color1);
+            props.SetColor("_CheckerboardColor2", checkerboard.color2);
+            props.SetFloat("_CheckerboardScale", checkerboard.scale);
+            props.SetFloat("_CheckerboardRotation", checkerboard.rotation);
+        }
+
+        private void SetRadial()
+        {
+            comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
+            comic.material.EnableKeyword(KEYWORD_RADIAL);
+            props.SetColor("_RadialColor1", radial.color1);
+            props.SetColor("_RadialColor2", radial.color2);
+            props.SetFloat("_RadialThickness", radial.lineThickness);
+            props.SetFloat("_RadialRotation", radial.rotation);
+            props.SetVector("_RadialSize", radial.size);
+            props.SetVector("_RadialOffset", radial.offset);
+        }
+
+        private void SetStars()
+        {
+            comic.material.EnableKeyword(KEYWORD_SELECTOR_B);
+            comic.material.EnableKeyword(KEYWORD_STARS);
+            props.SetColor("_StarColor1", stars.color1);
+            props.SetColor("_StarColor2", stars.color2);
+            props.SetFloat("_StarSize", stars.scale);
+            props.SetFloat("_StarRotation", stars.rotation);
+        }
+
+        private void SetPokaDots()
+        {
+            comic.material.EnableKeyword(KEYWORD_SELECTOR_B);
+            comic.material.EnableKeyword(KEYWORD_POKA_DOTS);
+            props.SetColor("_PokaDotColor1", pokaDots.color1);
+            props.SetColor("_PokaDotColor2", pokaDots.color2);
+            props.SetFloat("_PokaDotSize", pokaDots.scale);
+            props.SetFloat("_PokaDotRotation", pokaDots.rotation);
+        }
+
+        #endregion
+    }
+}

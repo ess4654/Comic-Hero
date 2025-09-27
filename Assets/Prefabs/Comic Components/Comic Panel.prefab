@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9139664851210264882}
   - component: {fileID: 2732664221115093413}
   - component: {fileID: 4001063801532997351}
+  - component: {fileID: 6121505033181529580}
   m_Layer: 0
   m_Name: Comic Panel
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3805807366278863547}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.20478, y: 0.08001, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -112,7 +113,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 82adafa3f615c794582c1057bc2226aa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -144,3 +145,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6121505033181529580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3805807366278863547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068972ff999ca6c4d9766040bb1ea0ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fillType: 0
+  solidColor: {r: 1, g: 1, b: 1, a: 1}
+  gradientColor:
+    color1: {r: 1, g: 1, b: 1, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: 0
+    rotation: 0
+  texture: {fileID: 0}
+  textureRotation: 0
+  textureScale: {x: 1, y: 1}
+  textureOffset: {x: 0, y: 0}
+  stripe:
+    color1: {r: 1, g: 1, b: 1, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+    lineWidth: 1
+    spacing: 1
+    rotation: 0
+  checkerboard:
+    color1: {r: 1, g: 1, b: 1, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+    scale: 1
+    rotation: 0
+  radial:
+    color1: {r: 1, g: 1, b: 1, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+    lineThickness: 1
+    rotation: 0
+    size: {x: 1, y: 1}
+    offset: {x: 0, y: 0}
+  stars:
+    color1: {r: 1, g: 1, b: 1, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+    scale: 1
+    rotation: 0
+  pokaDots:
+    color1: {r: 1, g: 1, b: 1, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+    scale: 1
+    rotation: 0

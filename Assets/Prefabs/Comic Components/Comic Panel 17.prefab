@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6071064368389407329
+--- !u!1001 &2934706606909247279
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -18,27 +18,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2732664221115093413, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
       propertyPath: preConvertedScale.x
-      value: 0.46070787
+      value: 0.39198193
       objectReference: {fileID: 0}
     - target: {fileID: 2732664221115093413, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
       propertyPath: preConvertedScale.y
-      value: 0.16620806
+      value: 0.2588228
       objectReference: {fileID: 0}
     - target: {fileID: 2732664221115093413, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
       propertyPath: preConvertedScale.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2732664221115093413, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
-      propertyPath: settings._polyVertices.Array.data[1].x
-      value: -0.5
+      propertyPath: settings._polyVertices.Array.size
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2732664221115093413, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
-      propertyPath: settings._polyVertices.Array.data[1].y
-      value: -0.49833944
+      propertyPath: settings._polyVertices.Array.data[0].x
+      value: -0.4262132
+      objectReference: {fileID: 0}
+    - target: {fileID: 2732664221115093413, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
+      propertyPath: settings._polyVertices.Array.data[0].y
+      value: 0.44336414
       objectReference: {fileID: 0}
     - target: {fileID: 2732664221115093413, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
       propertyPath: settings._polyVertices.Array.data[2].x
-      value: 0.5
+      value: 0.42911726
       objectReference: {fileID: 0}
     - target: {fileID: 2732664221115093413, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
       propertyPath: settings._polyVertices.Array.data[2].y
@@ -50,27 +54,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2732664221115093413, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
       propertyPath: settings._polyVertices.Array.data[3].y
-      value: 0.5
+      value: 0.3697443
+      objectReference: {fileID: 0}
+    - target: {fileID: 2732664221115093413, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
+      propertyPath: settings._polyVertices.Array.data[4].x
+      value: -0.20707148
+      objectReference: {fileID: 0}
+    - target: {fileID: 2732664221115093413, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
+      propertyPath: settings._polyVertices.Array.data[4].y
+      value: 0.3097514
       objectReference: {fileID: 0}
     - target: {fileID: 3805807366278863547, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
       propertyPath: m_Name
-      value: Comic Panel 13
+      value: Comic Panel 17
       objectReference: {fileID: 0}
     - target: {fileID: 4001063801532997351, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2d5c96a9bf9dddd44a1c45b1ed6246a9, type: 3}
+      objectReference: {fileID: 21300000, guid: 097fe41d13fec6546aa17a275cb7b6d7, type: 3}
     - target: {fileID: 4001063801532997351, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 82adafa3f615c794582c1057bc2226aa, type: 2}
     - target: {fileID: 9139664851210264882, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.061349694
+      value: 0.05904313
       objectReference: {fileID: 0}
     - target: {fileID: 9139664851210264882, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.04761905
+      value: 0.043785714
       objectReference: {fileID: 0}
     - target: {fileID: 9139664851210264882, guid: 41bbf603497bfa0488174b127ae9ac4f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
