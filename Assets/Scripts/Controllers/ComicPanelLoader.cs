@@ -38,6 +38,9 @@ namespace ComicHero.Controllers
             if (panel3Mount.childCount > 0)
                 Destroy(panel3Mount.GetChild(0).gameObject);
 
+            //remove old items
+            ItemSpawner.ClearSpawnedItems();
+
             //get random comic panels
             var panelA = comicPanels.SelectRandom();
             var panelB = comicPanels.SelectRandom();

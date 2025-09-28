@@ -174,27 +174,31 @@ MonoBehaviour:
     color2: {r: 0, g: 0, b: 0, a: 1}
     lineWidth: 1
     spacing: 1
+    offset: 0
     rotation: 0
   checkerboard:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     scale: 1
     rotation: 0
   radial:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     lineThickness: 1
     rotation: 0
     size: {x: 1, y: 1}
-    offset: {x: 0, y: 0}
   stars:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     scale: 1
     rotation: 0
   pokaDots:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     scale: 1
     rotation: 0
 --- !u!114 &114047234541074832

@@ -12,6 +12,8 @@ namespace ComicHero.Controllers
 
         private static Transform spawnBin;
 
+        #region ENGINE
+
         private void OnEnable()
         {
             ComicPanelLoader.OnPanelsLoaded += PanelsLoaded;
@@ -38,6 +40,17 @@ namespace ComicHero.Controllers
             {
                 var item = Instantiate(itemToSpawn, spawnBin);
                 item.transform.position = transform.position;
+            }
+        }
+
+        #endregion
+
+        public static void ClearSpawnedItems()
+        {
+            if(spawnBin != null)
+            {
+                for(var i = 0; i < spawnBin.childCount; i++)
+                    Destroy(spawnBin.GetChild(i));
             }
         }
     }

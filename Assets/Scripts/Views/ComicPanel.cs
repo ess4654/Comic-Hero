@@ -64,27 +64,33 @@ namespace ComicHero.Views
         }
 
         [Serializable]
+        public class TilingGradient : GradientColors
+        {
+            public Vector2 offset;
+        }
+
+        [Serializable]
         public class StripeSetting : GradientColors
         {
             public float lineWidth = 1;
             public float spacing = 1;
+            public float offset;
             public float rotation;
         }
 
         [Serializable]
-        public class CheckerboardSetting : GradientColors
+        public class CheckerboardSetting : TilingGradient
         {
             public float scale = 1;
             public float rotation;
         }
 
         [Serializable]
-        public class RadialSetting : GradientColors
+        public class RadialSetting : TilingGradient
         {
             public float lineThickness = 1;
             public float rotation;
             public Vector2 size = Vector2.one;
-            public Vector2 offset;
         }
 
         #endregion
@@ -342,6 +348,12 @@ namespace ComicHero.Views
                     return textureOffset;
                 else if (fillType == FillType.Radial)
                     return radial.offset;
+                else if (fillType == FillType.Checkerboard)
+                    return checkerboard.offset;
+                else if (fillType == FillType.Stars)
+                    return stars.offset;
+                else if (fillType == FillType.PokaDots)
+                    return pokaDots.offset;
 
                 return Vector2.zero;
             }
@@ -355,6 +367,21 @@ namespace ComicHero.Views
                 else if (fillType == FillType.Radial)
                 {
                     radial.offset = value;
+                    isDirty = true;
+                }
+                else if (fillType == FillType.Checkerboard)
+                {
+                    checkerboard.offset = value;
+                    isDirty = true;
+                }
+                else if (fillType == FillType.Stars)
+                {
+                    stars.offset = value;
+                    isDirty = true;
+                }
+                else if (fillType == FillType.PokaDots)
+                {
+                    pokaDots.offset = value;
                     isDirty = true;
                 }
             }
@@ -412,6 +439,28 @@ namespace ComicHero.Views
         }
 
         /// <summary>
+        ///     Offset of the vertically spaced lines.
+        /// </summary>
+        public float LineOffset
+        {
+            get
+            {
+                if(fillType == FillType.Stripes)
+                    return stripe.offset;
+
+                return 0;
+            }
+            set
+            {
+                if(fillType == FillType.Stripes)
+                {
+                    stripe.offset = value;
+                    isDirty = true;
+                }
+            }
+        }
+
+        /// <summary>
         ///     The size of the comic fill elements.
         /// </summary>
         public float Size
@@ -453,16 +502,16 @@ namespace ComicHero.Views
         private SpriteRenderer comic;
         private MaterialPropertyBlock props;
 
-        private const string KEYWORD_SELECTOR_A = "_FILL_SELECTOR_A";
-        private const string KEYWORD_SELECTOR_B = "_FILL_SELECTOR_B";
-        private const string KEYWORD_SOLID = "_FILL_TYPE_SOLID";
-        private const string KEYWORD_GRADIENT = "_FILL_TYPE_GRADIENT";
-        private const string KEYWORD_TEXTURE = "_FILL_TYPE_TEXTURE";
-        private const string KEYWORD_STRIPE = "_FILL_TYPE_STRIPE";
-        private const string KEYWORD_CHECKERBOARD = "_FILL_TYPE_CHECKERBOARD";
-        private const string KEYWORD_RADIAL = "_FILL_TYPE_RADIAL";
-        private const string KEYWORD_STARS = "_FILL_TYPE_2_STARS";
-        private const string KEYWORD_POKA_DOTS = "_FILL_TYPE_2_POKA_DOT";
+        //private const string KEYWORD_SELECTOR_A = "_FILL_SELECTOR_A";
+        //private const string KEYWORD_SELECTOR_B = "_FILL_SELECTOR_B";
+        //private const string KEYWORD_SOLID = "_FILL_TYPE_SOLID";
+        //private const string KEYWORD_GRADIENT = "_FILL_TYPE_GRADIENT";
+        //private const string KEYWORD_TEXTURE = "_FILL_TYPE_TEXTURE";
+        //private const string KEYWORD_STRIPE = "_FILL_TYPE_STRIPE";
+        //private const string KEYWORD_CHECKERBOARD = "_FILL_TYPE_CHECKERBOARD";
+        //private const string KEYWORD_RADIAL = "_FILL_TYPE_RADIAL";
+        //private const string KEYWORD_STARS = "_FILL_TYPE_2_STARS";
+        //private const string KEYWORD_POKA_DOTS = "_FILL_TYPE_2_POKA_DOT";
 
         #endregion
 
@@ -490,16 +539,16 @@ namespace ComicHero.Views
 
                 props.SetTexture("_MainTex", comic.sprite.texture);
 
-                comic.material.DisableKeyword(KEYWORD_SELECTOR_A);
-                comic.material.DisableKeyword(KEYWORD_SELECTOR_B);
-                comic.material.DisableKeyword(KEYWORD_SOLID);
-                comic.material.DisableKeyword(KEYWORD_GRADIENT);
-                comic.material.DisableKeyword(KEYWORD_TEXTURE);
-                comic.material.DisableKeyword(KEYWORD_STRIPE);
-                comic.material.DisableKeyword(KEYWORD_CHECKERBOARD);
-                comic.material.DisableKeyword(KEYWORD_RADIAL);
-                comic.material.DisableKeyword(KEYWORD_STARS);
-                comic.material.DisableKeyword(KEYWORD_POKA_DOTS);
+                //comic.material.DisableKeyword(KEYWORD_SELECTOR_A);
+                //comic.material.DisableKeyword(KEYWORD_SELECTOR_B);
+                //comic.material.DisableKeyword(KEYWORD_SOLID);
+                //comic.material.DisableKeyword(KEYWORD_GRADIENT);
+                //comic.material.DisableKeyword(KEYWORD_TEXTURE);
+                //comic.material.DisableKeyword(KEYWORD_STRIPE);
+                //comic.material.DisableKeyword(KEYWORD_CHECKERBOARD);
+                //comic.material.DisableKeyword(KEYWORD_RADIAL);
+                //comic.material.DisableKeyword(KEYWORD_STARS);
+                //comic.material.DisableKeyword(KEYWORD_POKA_DOTS);
 
                 if (fillType == FillType.Solid)
                     SetSolidColor();
@@ -528,15 +577,17 @@ namespace ComicHero.Views
 
         private void SetSolidColor()
         {
-            comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
-            comic.material.EnableKeyword(KEYWORD_SOLID);
+            //comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
+            //comic.material.EnableKeyword(KEYWORD_SOLID);
+            props.SetFloat("MUX", 0);
             props.SetColor("_Color", solidColor);
         }
 
         private void SetGradientColor()
         {
-            comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
-            comic.material.EnableKeyword(KEYWORD_GRADIENT);
+            //comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
+            //comic.material.EnableKeyword(KEYWORD_GRADIENT);
+            props.SetFloat("MUX", 1);
             props.SetColor("_GradientColor1", gradientColor.color1);
             props.SetColor("_GradientColor2", gradientColor.color2);
             props.SetFloat("_GradientOffset", gradientColor.offset);
@@ -545,8 +596,9 @@ namespace ComicHero.Views
 
         private void SetTexture()
         {
-            comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
-            comic.material.EnableKeyword(KEYWORD_TEXTURE);
+            //comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
+            //comic.material.EnableKeyword(KEYWORD_TEXTURE);
+            props.SetFloat("MUX", 2);
             if (texture == null)
                 texture = Resources.Load<Texture>("Shapes2D/1x1");
             props.SetTexture("_FillTexture", texture);
@@ -558,29 +610,34 @@ namespace ComicHero.Views
 
         private void SetStripe()
         {
-            comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
-            comic.material.EnableKeyword(KEYWORD_STRIPE);
+            //comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
+            //comic.material.EnableKeyword(KEYWORD_STRIPE);
+            props.SetFloat("MUX", 3);
             props.SetColor("_StripeColor1", stripe.color1);
             props.SetColor("_StripeColor2", stripe.color2);
             props.SetFloat("_StripeWidth", stripe.lineWidth);
             props.SetFloat("_StripeSpacing", stripe.spacing);
             props.SetFloat("_StripeRotation", stripe.rotation);
+            props.SetFloat("_StripeOffset", stripe.offset);
         }
 
         private void SetCheckerboard()
         {
-            comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
-            comic.material.EnableKeyword(KEYWORD_CHECKERBOARD);
+            //comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
+            //comic.material.EnableKeyword(KEYWORD_CHECKERBOARD);
+            props.SetFloat("MUX", 4);
             props.SetColor("_CheckerboardColor1", checkerboard.color1);
             props.SetColor("_CheckerboardColor2", checkerboard.color2);
             props.SetFloat("_CheckerboardScale", checkerboard.scale);
             props.SetFloat("_CheckerboardRotation", checkerboard.rotation);
+            props.SetVector("_CheckerboardOffset", checkerboard.offset);
         }
 
         private void SetRadial()
         {
-            comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
-            comic.material.EnableKeyword(KEYWORD_RADIAL);
+            //comic.material.EnableKeyword(KEYWORD_SELECTOR_A);
+            //comic.material.EnableKeyword(KEYWORD_RADIAL);
+            props.SetFloat("MUX", 5);
             props.SetColor("_RadialColor1", radial.color1);
             props.SetColor("_RadialColor2", radial.color2);
             props.SetFloat("_RadialThickness", radial.lineThickness);
@@ -591,22 +648,28 @@ namespace ComicHero.Views
 
         private void SetStars()
         {
-            comic.material.EnableKeyword(KEYWORD_SELECTOR_B);
-            comic.material.EnableKeyword(KEYWORD_STARS);
+            //comic.material.EnableKeyword(KEYWORD_SELECTOR_B);
+            //comic.material.EnableKeyword(KEYWORD_STARS);
+            props.SetFloat("MUX", 6);
             props.SetColor("_StarColor1", stars.color1);
             props.SetColor("_StarColor2", stars.color2);
             props.SetFloat("_StarSize", stars.scale);
             props.SetFloat("_StarRotation", stars.rotation);
+            props.SetVector("_StarOffset", stars.offset);
+
         }
 
         private void SetPokaDots()
         {
-            comic.material.EnableKeyword(KEYWORD_SELECTOR_B);
-            comic.material.EnableKeyword(KEYWORD_POKA_DOTS);
+            //comic.material.EnableKeyword(KEYWORD_SELECTOR_B);
+            //comic.material.EnableKeyword(KEYWORD_POKA_DOTS);
+            props.SetFloat("MUX", 7);
             props.SetColor("_PokaDotColor1", pokaDots.color1);
             props.SetColor("_PokaDotColor2", pokaDots.color2);
             props.SetFloat("_PokaDotSize", pokaDots.scale);
             props.SetFloat("_PokaDotRotation", pokaDots.rotation);
+            props.SetVector("_PokaDotOffset", pokaDots.offset);
+
         }
 
         #endregion
