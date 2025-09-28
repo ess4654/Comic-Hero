@@ -26,6 +26,7 @@ namespace ComicHero.Controllers
         [SerializeField, Min(0.1f)] private float movementSpeed = 1f;
         [SerializeField, Min(0.1f)] private float jumpForce = 3f;
         [SerializeField] private SpriteRenderer sprite;
+        [SerializeField] private PlayerAnimator animator;
 
         /// <summary>
         ///     The world position of the player.
@@ -63,6 +64,7 @@ namespace ComicHero.Controllers
         private int facing;
         private Rigidbody2D rigidbody;
         private PlayerPlatformInteractor platformInteractor;
+        private bool jumping;
 
         #endregion
 
@@ -120,8 +122,11 @@ namespace ComicHero.Controllers
                 inputAxis.y--;
 
             //jump
-            if (input.Jumped(playerIndex))
+            if (input.Jumped(playerIndex) && !jumping)
+            {
+                jumping = true;
                 Jump();
+            }
 
             //flip spite
             if (inputAxis.x != 0 && inputAxis.x != facing)
@@ -130,11 +135,24 @@ namespace ComicHero.Controllers
             //drop down from platform
             if (inputAxis.y < 0)
                 platformInteractor.DisablePlatform();
+
+            //call the animator to update
+            if(jumping)
+                animator.Jump();
+            else if(inputAxis.x != 0)
+                animator.Moving();
+            else
+                animator.SetIdle();
         }
 
         private void Jump()
         {
             rigidbody.AddForceY(jumpForce, ForceMode2D.Impulse);
+        }
+
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            jumping = false;
         }
 
         #endregion

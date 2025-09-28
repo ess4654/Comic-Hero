@@ -532,7 +532,7 @@ namespace ComicHero.Views
             try
             {
                 comic = GetComponent<SpriteRenderer>();
-                if(!comic.material.name.Contains("Comic Panel"))
+                if(!comic.sharedMaterial.name.Contains("Comic Panel"))
                     comic.sharedMaterial = Resources.Load<Material>("Dynamic Comic Panels/Comic Panel");
                 props = new MaterialPropertyBlock();
                 comic.GetPropertyBlock(props);
