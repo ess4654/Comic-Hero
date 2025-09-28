@@ -28,12 +28,24 @@ namespace ComicHero.Controllers
         [SerializeField, Min(0.1f)] private float jumpForce = 3f;
         [SerializeField] private SpriteRenderer sprite;
         [SerializeField] private PlayerAnimator animator;
+        [SerializeField] private WeaponManager weaponManager;
+        [SerializeField] private WeaponManager ui;
         [SerializeField] private PlayerData data;
 
         /// <summary>
         ///     The world position of the player.
         /// </summary>
         public Vector3 Position => transform.position;
+        
+        /// <summary>
+        ///     The direction the player is facing.
+        /// </summary>
+        public int Facing { get; private set; }
+
+        /// <summary>
+        ///     The current health of the player.
+        /// </summary>
+        public float Health => data.health;
 
         /// <summary>
         ///     The number of lives the player has.
@@ -53,7 +65,7 @@ namespace ComicHero.Controllers
                     moveRight = KeyCode.D,
                     jumpDown = KeyCode.S,
                     jump = KeyCode.LeftShift,
-                    fire = KeyCode.RightShift
+                    fire = KeyCode.Tab
                 },
 
                 //Player 2 controls
@@ -68,7 +80,6 @@ namespace ComicHero.Controllers
             }
         };
         private Vector2 inputAxis;
-        private int facing;
         private Rigidbody2D rigidbody;
         private PlayerPlatformInteractor platformInteractor;
         private bool jumping;
@@ -77,8 +88,8 @@ namespace ComicHero.Controllers
 
         private void Awake()
         {
-            if (facing == 0)
-                facing = 1;
+            if (Facing == 0)
+                Facing = 1;
             rigidbody = GetComponent<Rigidbody2D>();
             platformInteractor = GetComponent<PlayerPlatformInteractor>();
         }
@@ -137,8 +148,14 @@ namespace ComicHero.Controllers
                 Jump();
             }
 
+            //fire projectile
+            if(input.Fired(playerIndex))
+            {
+                LoadProjectile();
+            }
+
             //flip spite
-            if (inputAxis.x != 0 && inputAxis.x != facing)
+            if (inputAxis.x != 0 && inputAxis.x != Facing)
                 Flip();
 
             //drop down from platform
@@ -157,6 +174,12 @@ namespace ComicHero.Controllers
         private void Jump()
         {
             rigidbody.AddForceY(jumpForce, ForceMode2D.Impulse);
+        }
+
+        private void LoadProjectile()
+        {
+            if(weaponManager != null)
+                weaponManager.FireBullet();
         }
 
         private void OnCollisionEnter2D(Collision2D collision)
@@ -212,10 +235,10 @@ namespace ComicHero.Controllers
         /// </summary>
         public void Flip()
         {
-            if(facing == 0)
-                facing = 1;
+            if(Facing == 0)
+                Facing = 1;
 
-            facing *= -1;
+            Facing *= -1;
             if(sprite != null)
                 sprite.flipX = !sprite.flipX;
         }

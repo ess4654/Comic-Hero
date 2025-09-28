@@ -41,6 +41,14 @@ namespace ComicHero
             Input.GetKeyDown(controlSchemes[playerIndex].jump);
 
         /// <summary>
+        ///     Did the player fire a bullet this frame?
+        /// </summary>
+        /// <param name="playerIndex">Index of the player.</param>
+        /// <returns>True if the player's fire key was pressed</returns>
+        public bool Fired(int playerIndex) =>
+            Input.GetKeyDown(controlSchemes[playerIndex].fire);
+
+        /// <summary>
         ///     Is left held down?
         /// </summary>
         /// <param name="playerIndex">Index of the player.</param>

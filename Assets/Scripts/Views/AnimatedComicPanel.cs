@@ -6,12 +6,12 @@ namespace Assets.Scripts.Views
     /// <summary>
     ///     Animates the comic panel
     /// </summary>
-    [RequireComponent(typeof(ComicPanel))]
-    public class AnimatedComicPanel : LoopingLeanTween
+    public class AnimatedComicPanel : ComicComponent
     {
+        #region VARIABLE DECLARATIONS
+
         [SerializeField, Min(0.1f)] private float animationSpeed = 1f;
 
-        private ComicPanel comic;
         private ComicPanel.FillType fillType;
         
         private float animationProbability => 1f;
@@ -22,9 +22,12 @@ namespace Assets.Scripts.Views
         private bool rotateCheckered;
         private float randomRotationSpeed;
 
-        private void Awake()
+        #endregion
+
+        protected override void Awake()
         {
-            comic = GetComponent<ComicPanel>();
+            base.Awake();
+
             animating = Random.value <= animationProbability;
             reverse = Reverse;
             biDirectional = Reverse;
