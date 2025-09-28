@@ -10,6 +10,7 @@ namespace ComicHero.Controllers
     public class PlayerPlatformInteractor : MonoBehaviour
     {
         [SerializeField] private string platformTag = "Platform";
+        [SerializeField, Min(0.25f)] private float fallTimer = 3f;
 
         private BoxCollider2D playerCollider;
         private BoxCollider2D currentPlatform;
@@ -30,22 +31,19 @@ namespace ComicHero.Controllers
         private void OnCollisionExit2D(Collision2D collision)
         {
             if (collision.gameObject.CompareTag(platformTag))
-            {
-                //if(currentPlatform != null)
-                //    Physics2D.IgnoreCollision(playerCollider, currentPlatform, false);
                 currentPlatform = null;
-            }
         }
 
         private IEnumerator DisableCollision()
         {
             if(currentPlatform != null)
             {
-                Physics2D.IgnoreCollision(playerCollider, currentPlatform);
-                yield return new WaitForSeconds(.25f);
-                if (currentPlatform != null)
+                var _currentPlatform = currentPlatform;
+                Physics2D.IgnoreCollision(playerCollider, _currentPlatform);
+                yield return new WaitForSeconds(fallTimer);
+                if (_currentPlatform != null)
                 {
-                    Physics2D.IgnoreCollision(playerCollider, currentPlatform, false);
+                    Physics2D.IgnoreCollision(playerCollider, _currentPlatform, false);
                     currentPlatform = null;
                 }
             }
