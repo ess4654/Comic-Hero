@@ -1,3 +1,4 @@
+using ComicHero.Data;
 using System;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -27,11 +28,17 @@ namespace ComicHero.Controllers
         [SerializeField, Min(0.1f)] private float jumpForce = 3f;
         [SerializeField] private SpriteRenderer sprite;
         [SerializeField] private PlayerAnimator animator;
+        [SerializeField] private PlayerData data;
 
         /// <summary>
         ///     The world position of the player.
         /// </summary>
         public Vector3 Position => transform.position;
+
+        /// <summary>
+        ///     The number of lives the player has.
+        /// </summary>
+        public int Lives => data.lives;
 
         protected Player OtherPlayer => PlayerManager.Instance.Players[(PlayerIndex + 1) % 2];
 
@@ -92,6 +99,8 @@ namespace ComicHero.Controllers
 
         private void UpdatePlayerCamera(ScriptableRenderContext context, Camera camera)
         {
+            if (GameController.IsGameOver) return;
+
             if (playerCamera != null)
             {
                 var otherPlayerX = OtherPlayer.transform.position.x;
@@ -153,6 +162,35 @@ namespace ComicHero.Controllers
         private void OnCollisionEnter2D(Collision2D collision)
         {
             jumping = false;
+            if (collision.gameObject.CompareTag("Hazard"))
+                Die();
+        }
+        
+        private bool isDead = false;
+
+        private void Die()
+        {
+            if (isDead) return;
+            isDead = true;
+
+            //is the player defeated?
+            if(data.lives == 0)
+            {
+                Defeated();
+                return;
+            }
+
+            //respawn if we still have lives
+            data.Die();
+            data.ResetHealth();
+            PlayerManager.Instance.RespawnPlayer(playerIndex);
+            isDead = false;
+        }
+
+        private void Defeated() 
+        {
+            GameController.Instance.GameOver();
+            PlayerManager.Instance.DespawnPlayer(playerIndex);
         }
 
         #endregion

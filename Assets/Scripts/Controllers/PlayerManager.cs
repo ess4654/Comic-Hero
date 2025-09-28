@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace ComicHero.Controllers
 {
@@ -92,6 +93,16 @@ namespace ComicHero.Controllers
                     Destroy(player.gameObject);
                 Players.Clear();
             }
+        }
+
+        public void RespawnPlayer(int playerIndex)
+        {
+            GetPlayer(playerIndex).transform.position = spawnPoints[playerIndex].position;
+        }
+
+        public void DespawnPlayer(int playerIndex)
+        {
+            Destroy(Players[playerIndex].gameObject);
         }
 
         #endregion
