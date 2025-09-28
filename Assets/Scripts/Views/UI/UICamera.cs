@@ -1,5 +1,4 @@
 using ComicHero.Controllers;
-using System;
 using UnityEngine;
 
 namespace ComicHero.Views.UI
@@ -10,6 +9,7 @@ namespace ComicHero.Views.UI
     public class UICamera : Singelton<UICamera>
     {
         private int updatedPlayers;
+        private const float threshold = 0.01f;
 
         private void OnEnable()
         {
@@ -44,7 +44,9 @@ namespace ComicHero.Views.UI
             var player1Position = PlayerManager.Instance.GetPlayerPosition(0);
             var player2Position = PlayerManager.Instance.GetPlayerPosition(1);
             var angle = Vector3.SignedAngle(player1Position, player2Position, Vector3.forward) * 100;
-            activeCamera.transform.localEulerAngles = new Vector3(0, 0, -angle * (flip ? -1 : 1));
+         
+            if(Mathf.Abs(angle) > threshold)
+                activeCamera.transform.localEulerAngles = new Vector3(0, 0, -angle * (flip ? -1 : 1));
         }
     }
 }

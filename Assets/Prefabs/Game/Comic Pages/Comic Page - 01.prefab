@@ -236,6 +236,10 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3000760877750331956, guid: da6b50fd2ead1884a9d14c848dfa8745, type: 3}
+      propertyPath: oneWay
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4770451573452059769, guid: da6b50fd2ead1884a9d14c848dfa8745, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.93199325
@@ -279,6 +283,10 @@ PrefabInstance:
     - target: {fileID: 4960186533005729844, guid: da6b50fd2ead1884a9d14c848dfa8745, type: 3}
       propertyPath: m_Name
       value: Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 7332929106456182426, guid: da6b50fd2ead1884a9d14c848dfa8745, type: 3}
+      propertyPath: m_UseOneWay
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

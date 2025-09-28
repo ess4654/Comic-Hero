@@ -60,8 +60,11 @@ namespace ComicHero.Controllers
             {
                 var player = SpawnPlayer(spawnPoints[i].position);
                 player.PlayerIndex = i;
+                if(player.PlayerIndex % 2 == 1)
+                    player.Flip();
                 if(i < playerCameraTextures.Length)
                     player.SetCameraTexture(playerCameraTextures[i]);
+                
                 Players.Add(player);
             }
         }

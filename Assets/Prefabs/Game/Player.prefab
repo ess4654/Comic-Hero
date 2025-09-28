@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7383568557972040215}
   - component: {fileID: 7530999874975808481}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 3766154566646588005}
   - component: {fileID: 6394541797285628344}
   - component: {fileID: 2037098028843162746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -237,7 +237,8 @@ GameObject:
   - component: {fileID: 509156080886163647}
   - component: {fileID: 9132749218290112897}
   - component: {fileID: 5975845612192107486}
-  m_Layer: 0
+  - component: {fileID: 7988485770855611540}
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,3 +349,19 @@ MonoBehaviour:
   playerIndex: 0
   playerCamera: {fileID: 3766154566646588005}
   cameraOffset: 4
+  movementSpeed: 25
+  jumpForce: 13
+  sprite: {fileID: 7530999874975808481}
+--- !u!114 &7988485770855611540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8080217835287204159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd61c1b201da4ff46b3c026fe3a7741b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platformTag: Platform
