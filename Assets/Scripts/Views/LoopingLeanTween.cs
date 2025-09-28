@@ -20,6 +20,8 @@ namespace ComicHero.Views
                 .setOnUpdate(Tween)
                 .setOnComplete(() =>
                 {
+                    OnComplete(); //engine
+
                     if (this == null || !IsLooping) return;
                     Tween();
                 })
@@ -31,6 +33,8 @@ namespace ComicHero.Views
         protected abstract float TweenTime { get; }
 
         protected abstract void Tween(float lerp);
+        
+        protected virtual void OnComplete() { }
 
         #endregion
 

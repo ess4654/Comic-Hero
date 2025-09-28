@@ -14,7 +14,8 @@ namespace ComicHero.Views.UI
         private SpriteRenderer rend;
         private MaterialPropertyBlock props;
         private Player player;
-        private const float offset = 1;
+        private const float rotation = 89.5f;
+        private const float offset = .9f;
 
         protected override void Awake()
         {
@@ -30,7 +31,7 @@ namespace ComicHero.Views.UI
             {
                 color1 = healthColor,
                 color2 = Color.black,
-                rotation = 90
+                rotation = rotation
             };
         }
 
@@ -42,7 +43,7 @@ namespace ComicHero.Views.UI
 
         private void Update()
         {
-            comic.GradientOffset = (100 - player.Health) - offset;
+            comic.GradientOffset = player.Health == 100 ? -2 : (-0.01f * player.Health + offset);
         }
 
         #endregion
