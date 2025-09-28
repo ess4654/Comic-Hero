@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8072597409895903211}
   - component: {fileID: 298731595793579274}
   - component: {fileID: 8590644767990143709}
+  - component: {fileID: 8825263777640617712}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Hazard
@@ -138,3 +139,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &8825263777640617712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6243887641169458909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25341498e87a56c498de7b71a410926d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomColors:
+  - {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
+  - {r: 0.43921572, g: 0.43921572, b: 0.43921572, a: 0}

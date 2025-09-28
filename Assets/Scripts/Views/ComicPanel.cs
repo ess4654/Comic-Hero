@@ -89,6 +89,11 @@ namespace ComicHero.Views
 
         #endregion
 
+        /// <summary>
+        ///     Called when the comic strip has been rendered.
+        /// </summary>
+        public event Action<FillType> OnComicRendered;
+
         [SerializeField] private FillType fillType;
 
         [Header("Color")]
@@ -516,6 +521,8 @@ namespace ComicHero.Views
                     SetSolidColor();
 
                 comic.SetPropertyBlock(props);
+                isDirty = false;
+                OnComicRendered?.Invoke(fillType); //invoke
             } catch { }
         }
 
