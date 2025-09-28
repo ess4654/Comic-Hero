@@ -42,7 +42,8 @@ namespace Assets.Scripts.Views
 
         protected override void Tween(float lerp)
         {
-            comic.Rotation = lerp * 360f;
+            if(fillType == ComicPanel.FillType.Radial)
+                comic.Rotation = lerp * 360f;
         }
     }
 }
