@@ -119,483 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!21 &10705766
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &18669902
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &23294232
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!4 &24173713 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7789633086048454833, guid: dbf47b49b5c0da24b8277f4fcf1e1d92, type: 3}
@@ -675,10 +198,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -752,6 +275,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -791,6 +315,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -802,12 +327,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -815,6 +342,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -834,10 +362,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -911,6 +439,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -950,6 +479,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -961,12 +491,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -974,164 +506,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &200252183
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_STRIPE
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -1156,10 +531,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -1233,6 +608,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -1272,6 +648,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -1283,12 +660,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -1296,6 +675,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -1365,323 +745,6 @@ MonoBehaviour:
   panel1Mount: {fileID: 1605142760}
   panel2Mount: {fileID: 92773792}
   panel3Mount: {fileID: 1954188516}
---- !u!21 &427290741
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_B
-  - _FILL_TYPE_2_POKA_DOT
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &469688928
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!21 &615034940
 Material:
   serializedVersion: 8
@@ -1694,10 +757,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -1771,6 +834,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -1810,6 +874,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -1821,12 +886,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -1834,324 +901,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &694081676
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &721443459
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -2171,10 +921,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -2248,6 +998,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -2287,6 +1038,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -2298,12 +1050,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -2311,6 +1065,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -2329,10 +1084,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -2406,6 +1161,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -2445,6 +1201,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -2456,12 +1213,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -2469,6 +1228,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -2488,10 +1248,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -2565,6 +1325,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -2604,6 +1365,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -2615,12 +1377,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -2628,6 +1392,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -2722,165 +1487,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!21 &758986311
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!21 &764507456
 Material:
   serializedVersion: 8
@@ -2893,10 +1499,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -2970,6 +1576,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -3009,6 +1616,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -3020,12 +1628,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -3033,6 +1643,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -3120,324 +1731,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &837879114
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &845736589
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &873943324
 GameObject:
   m_ObjectHideFlags: 0
@@ -3537,10 +1830,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -3614,6 +1907,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -3653,6 +1947,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -3664,12 +1959,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -3677,6 +1974,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -3696,10 +1994,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -3773,6 +2071,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -3812,6 +2111,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -3823,12 +2123,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -3836,6 +2138,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -3855,10 +2158,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -3932,6 +2235,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -3971,6 +2275,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -3982,12 +2287,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -3995,165 +2302,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &969000301
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -4173,10 +2322,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -4250,6 +2399,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -4289,6 +2439,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -4300,12 +2451,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -4313,6 +2466,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -4332,10 +2486,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -4409,6 +2563,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -4448,6 +2603,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -4459,12 +2615,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -4472,6 +2630,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -4491,10 +2650,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -4568,6 +2727,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -4607,6 +2767,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -4618,12 +2779,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -4631,6 +2794,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -4650,10 +2814,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -4727,6 +2891,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -4766,6 +2931,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -4777,12 +2943,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -4790,6 +2958,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -4809,10 +2978,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -4886,6 +3055,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -4925,6 +3095,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -4936,12 +3107,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -4949,6 +3122,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -5033,10 +3207,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -5110,6 +3284,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -5149,6 +3324,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -5160,12 +3336,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -5173,6 +3351,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -5192,10 +3371,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -5269,6 +3448,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -5308,6 +3488,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -5319,12 +3500,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -5332,6 +3515,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -5351,10 +3535,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -5428,6 +3612,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -5467,6 +3652,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -5478,12 +3664,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -5491,323 +3679,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &1441808804
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &1447687956
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -5909,10 +3781,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -5986,6 +3858,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -6025,6 +3898,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -6036,12 +3910,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -6049,324 +3925,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &1553427729
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &1591335073
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -6515,27 +4074,31 @@ MonoBehaviour:
     color2: {r: 0, g: 0, b: 0, a: 1}
     lineWidth: 1
     spacing: 1
+    offset: 0
     rotation: 0
   checkerboard:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     scale: 2.02
     rotation: -0.28
   radial:
     color1: {r: 0.80392164, g: 0.7803922, b: 0.11764707, a: 1}
     color2: {r: 0.74509805, g: 0.62352943, b: 0.16470589, a: 1}
+    offset: {x: 0, y: 0}
     lineThickness: 1
     rotation: 0
     size: {x: 1, y: 1}
-    offset: {x: 0, y: 0}
   stars:
     color1: {r: 0.8117648, g: 0.78823537, b: 0.11764707, a: 1}
     color2: {r: 0.6666667, g: 0.5803922, b: 0.16078432, a: 1}
+    offset: {x: 0, y: 0}
     scale: 1
     rotation: 0
   pokaDots:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     scale: 1
     rotation: 0
 --- !u!21 &1675673023
@@ -6550,10 +4113,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -6627,6 +4190,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -6666,6 +4230,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -6677,12 +4242,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -6690,6 +4257,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -6709,10 +4277,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -6786,6 +4354,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -6825,6 +4394,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -6836,12 +4406,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -6849,6 +4421,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -6982,27 +4555,31 @@ MonoBehaviour:
     color2: {r: 1, g: 0.9470841, b: 0.11792451, a: 1}
     lineWidth: 0.51
     spacing: 0.61
+    offset: 0
     rotation: -0.36
   checkerboard:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     scale: 1
     rotation: 0
   radial:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     lineThickness: 0
     rotation: 0
     size: {x: 1, y: 1}
-    offset: {x: 0, y: 0}
   stars:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     scale: 1
     rotation: 0
   pokaDots:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     scale: 1
     rotation: 0
 --- !u!21 &1790474906
@@ -7016,10 +4593,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -7093,6 +4670,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -7132,6 +4710,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -7143,12 +4722,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -7156,6 +4737,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -7273,27 +4855,31 @@ MonoBehaviour:
     color2: {r: 0, g: 0, b: 0, a: 1}
     lineWidth: 1
     spacing: 1
+    offset: 0
     rotation: 0
   checkerboard:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     scale: 2.02
     rotation: -0.28
   radial:
     color1: {r: 0.80392164, g: 0.7803922, b: 0.11764707, a: 1}
     color2: {r: 0.74509805, g: 0.62352943, b: 0.16470589, a: 1}
+    offset: {x: 0, y: 0}
     lineThickness: 1
     rotation: 0
     size: {x: 1, y: 1}
-    offset: {x: 0, y: 0}
   stars:
     color1: {r: 0.8117648, g: 0.78823537, b: 0.11764707, a: 1}
     color2: {r: 0.6666667, g: 0.5803922, b: 0.16078432, a: 1}
+    offset: {x: 0, y: 0}
     scale: 1
     rotation: 0
   pokaDots:
     color1: {r: 0.8117648, g: 0.78823537, b: 0.11764707, a: 1}
     color2: {r: 0.6666667, g: 0.5803922, b: 0.16078432, a: 1}
+    offset: {x: 0, y: 0}
     scale: 0.51
     rotation: -1.56
 --- !u!1 &1830637637
@@ -7339,10 +4925,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_B
   - _FILL_TYPE_2_POKA_DOT
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -7416,6 +5002,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -7455,6 +5042,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -7466,12 +5054,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -7479,164 +5069,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &1846719423
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_B
-  - _FILL_TYPE_2_STARS
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -7660,10 +5093,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -7737,6 +5170,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -7776,6 +5210,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -7787,12 +5222,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -7800,6 +5237,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -7925,165 +5363,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 405350191}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1982031104
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Comic Panel (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance) (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _FILL_SELECTOR_A
-  - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FillTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _CheckerboardRotation: 0
-    - _CheckerboardScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _GradientOffset: 0
-    - _GradientRotation: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _PokaDotRotation: 0
-    - _PokaDotSize: 1
-    - _QueueOffset: 0
-    - _RadialLineThickness: 0
-    - _RadialRotation: 0
-    - _RadialThickness: 1
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _StarRotation: 0
-    - _StarSize: 1
-    - _StripeRotation: 0
-    - _StripeSpacing: 1
-    - _StripeWidth: 1
-    - _Surface: 0
-    - _TextureRotation: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _RadialSize: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!21 &2050637441
 Material:
   serializedVersion: 8
@@ -8096,10 +5375,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f267123498043db4889465768b5e3b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _FILL_SELECTOR_A
   - _FILL_TYPE_SOLID
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -8173,6 +5452,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MUX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -8212,6 +5492,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StarRotation: 0
     - _StarSize: 1
+    - _StripeOffset: 0
     - _StripeRotation: 0
     - _StripeSpacing: 1
     - _StripeWidth: 1
@@ -8223,12 +5504,14 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CheckerboardColor1: {r: 1, g: 1, b: 1, a: 0}
     - _CheckerboardColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _CheckerboardOffset: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor1: {r: 1, g: 1, b: 1, a: 0}
     - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
     - _PokaDotColor1: {r: 1, g: 1, b: 1, a: 0}
     - _PokaDotColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _PokaDotOffset: {r: 0, g: 0, b: 0, a: 0}
     - _RadialColor1: {r: 1, g: 1, b: 1, a: 0}
     - _RadialColor2: {r: 0, g: 0, b: 0, a: 0}
     - _RadialOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -8236,6 +5519,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _StarColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StarColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarOffset: {r: 0, g: 0, b: 0, a: 0}
     - _StripeColor1: {r: 1, g: 1, b: 1, a: 0}
     - _StripeColor2: {r: 0, g: 0, b: 0, a: 0}
     - _TextureOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -8920,7 +6204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2935781729018686310, guid: 0f8ceaadd9c72324798ba6c432c588a5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3028525517643661193, guid: 0f8ceaadd9c72324798ba6c432c588a5, type: 3}
       propertyPath: m_Color.b
