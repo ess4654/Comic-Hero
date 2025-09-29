@@ -1,4 +1,5 @@
 ﻿using ComicHero.Controllers.Game;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace ComicHero.Controllers
@@ -29,6 +30,11 @@ namespace ComicHero.Controllers
         [SerializeField] private bool disableVehicles;
         [SerializeField] private float vehicleSpawnProbability = 0.1f;
         [SerializeField] private VehicleSpawner vehicleSpawner;
+        
+        [Header("Scenery")]
+        [SerializeField] private bool disableScenery;
+        [SerializeField] private ScenerySpawner scenerySpawner;
+        [SerializeField] private float scenerySpawnProbability = 0.5f;
 
         #endregion
 
@@ -36,18 +42,37 @@ namespace ComicHero.Controllers
         {
             if (Spawn)
             {
-                bool spawnedVehicle = false;
+                var objectCache = new List<WorldObjects>(AvailableObjects);
                 var itemToSpawn = AvailableObjects.SelectRandom();
 
                 //Spawn vehicles
+                bool spawnedVehicle = false;
                 if (
                     itemToSpawn == WorldObjects.Vehicles &&
                     CheckProbability(vehicleSpawnProbability)
                     && vehicleSpawner != null &&
                     !disableVehicles)
                 {
-                  vehicleSpawner.SpawnVehicle(leftBrake, rightBrake);
-                  spawnedVehicle = true;
+                    vehicleSpawner.SpawnVehicle(leftBrake, rightBrake);
+                    spawnedVehicle = true;
+                }
+
+                if (!spawnedVehicle)
+                {
+                    //Spawn scenery
+                    bool spawnedScenery = false;
+                    objectCache.Remove(WorldObjects.Vehicles);
+                    itemToSpawn = objectCache.SelectRandom();
+
+                    if(
+                        itemToSpawn == WorldObjects.Scenery &&
+                        scenerySpawner != null &&
+                        CheckProbability(scenerySpawnProbability) &&
+                        !disableScenery)
+                    {
+                        scenerySpawner.SpawnScenery();
+                        spawnedScenery = true;
+                    }
                 }
             }
         }

@@ -133,6 +133,7 @@ Transform:
   - {fileID: 7525442356947359830}
   - {fileID: 6893596397541887725}
   - {fileID: 2023323236149673546}
+  - {fileID: 430031857287998504}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2992910765451676542
@@ -287,6 +288,62 @@ MonoBehaviour:
   disableVehicles: 0
   vehicleSpawnProbability: 0.2
   vehicleSpawner: {fileID: 2935263651732728370}
+  disableScenery: 0
+  scenerySpawner: {fileID: 6003432807069942428}
+  scenerySpawnProbability: 0.5
+--- !u!1 &5751203983569049501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 430031857287998504}
+  - component: {fileID: 6003432807069942428}
+  m_Layer: 0
+  m_Name: Scenery Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &430031857287998504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5751203983569049501}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4770451573452059769}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6003432807069942428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5751203983569049501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee8be361c9861f143af01d4a1db15aae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableSpawn: 0
+  spawnProbability: 0.5
+  scaleProbability: 0.5
+  grafittiWalls:
+  - {fileID: 4184825352156091747, guid: 703ba9a895b06f04d8ede914dd0f6d6f, type: 3}
+  - {fileID: 5729773796044345460, guid: b75ba2d73fd8a0443bc9e798ff876f3b, type: 3}
+  - {fileID: 6237950465021636757, guid: eb5808a2625586c4f819183e3a1aa0d1, type: 3}
+  - {fileID: 2509378225406062749, guid: e32dd7f3294835b46839079e89ff0bea, type: 3}
+  - {fileID: 7140488027496395246, guid: c6a9559b5af73e348b6ce3b96f0874a3, type: 3}
 --- !u!1 &8901488918016423858
 GameObject:
   m_ObjectHideFlags: 0
