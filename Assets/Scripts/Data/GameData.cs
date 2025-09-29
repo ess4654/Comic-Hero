@@ -1,5 +1,3 @@
-using System;
-
 namespace ComicHero.Data
 {
     /// <summary>
@@ -9,6 +7,6 @@ namespace ComicHero.Data
     {
         public static GameMode Mode = GameMode.EndlessRunner;
 
-        
+        public static bool HyperGloss = true;
     }
 }

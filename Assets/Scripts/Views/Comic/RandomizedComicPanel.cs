@@ -1,3 +1,4 @@
+using Assets.Scripts.Views;
 using System.Linq;
 using UnityEngine;
 using static ComicHero.Views.ComicPanel;
@@ -8,11 +9,11 @@ namespace ComicHero.Views
     ///     Randomizes the graphics for each comic panel.
     /// </summary>
     [RequireComponent (typeof(ComicPanel))]
-    public class RandomizedComicPanel : MonoBehaviour
+    public class RandomizedComicPanel : ComicComponent
     {
         #region VARIABLE DECLARATIONS
 
-        [SerializeField] private FillType[] randomFills = FillTypeOptions.Where(x => x != FillType.Texture).ToArray();
+        [SerializeField] private FillType[] randomFills = FillTypeOptions;
 
         [Header("Gradient")]
         [SerializeField] private GradientColors[] gradientPresets = new[]
@@ -96,6 +97,7 @@ namespace ComicHero.Views
         };
         [SerializeField] private float gradientFlipProbability = 0.5f;
 
+        [Header("Checkerboard")]
         [SerializeField] private float randomMaxRotation = 0.45f;
         [SerializeField] private Vector2 randomCheckerboardScale = new Vector2(0.25f, 3f);
         
@@ -107,6 +109,9 @@ namespace ComicHero.Views
         [SerializeField] private float radialMoveProbability = 0.5f;
         [SerializeField] private Vector2 randomRadialOffsetX = new Vector2(-1.0f, 1.0f);
         [SerializeField] private Vector2 randomRadialOffsetY = new Vector2(-1.0f, 1.0f);
+        
+        [Header("Texture")]
+        [SerializeField] private Texture[] randomFillTextures;
 
         private GradientColors RandomGradientColor =>
             gradientPresets.Length == 0 ?
@@ -143,14 +148,21 @@ namespace ComicHero.Views
             Random.Range(randomRadialOffsetY.x, randomRadialOffsetY.y)
         );
 
-        private ComicPanel comic;
-
         #endregion
+
+        #region ENGINE
+
+        protected override float TweenTime => 1;
+
+        protected override void Tween(float lerp) { }
 
         private void OnEnable()
         {
-            comic = GetComponent<ComicPanel>();
-            var randomFill = randomFills.Where(x => x != FillType.Texture).SelectRandom();
+            //get a random fill type for the graphic background
+            var randomFill = randomFills.SelectRandom();
+            while(randomFill == FillType.Texture && randomFillTextures.Length == 0)
+                randomFill = randomFills.SelectRandom();
+
             comic.Fill = randomFill;
 
             if (randomFill != FillType.Solid)
@@ -193,6 +205,11 @@ namespace ComicHero.Views
                 comic.Rotation = RandomRotation;
                 comic.Size = RandomCheckerboardSize;
             }
+            else if(randomFill == FillType.Texture)
+            {
+                if(randomFillTextures.Length > 0)
+                    comic.FillTexture = randomFillTextures.SelectRandom();
+            }
         }
 
         private void SetRandomGradient()
@@ -204,5 +221,7 @@ namespace ComicHero.Views
             else
                 comic.GradientColor= randomGradient;
         }
+
+        #endregion
     }
 }
