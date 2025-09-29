@@ -1,0 +1,15 @@
+Promt: generate clipart of a <species> anthro
+
+when a design is found that you like then type 
+
+Prompt: generate clipart of a muscular <species> anthro
+
+wait until the muscle growth stops then add
+
+Prompt: generate clipart of a hyper muscular <species> anthro
+
+Prompt: generate clipart of a super hyper muscular <species> anthro
+
+Prompt: generate clipart of a super hyper ripped muscular <species> anthro
+
+Prompt: generate clipart of a mega super hyper ripped muscular <species> anthro
