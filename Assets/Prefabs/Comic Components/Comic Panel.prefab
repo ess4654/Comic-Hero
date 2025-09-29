@@ -175,27 +175,31 @@ MonoBehaviour:
     color2: {r: 0, g: 0, b: 0, a: 1}
     lineWidth: 1
     spacing: 1
+    offset: 0
     rotation: 0
   checkerboard:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     scale: 1
     rotation: 0
   radial:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     lineThickness: 1
     rotation: 0
     size: {x: 1, y: 1}
-    offset: {x: 0, y: 0}
   stars:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     scale: 1
     rotation: 0
   pokaDots:
     color1: {r: 1, g: 1, b: 1, a: 1}
     color2: {r: 0, g: 0, b: 0, a: 1}
+    offset: {x: 0, y: 0}
     scale: 1
     rotation: 0
 --- !u!114 &5998526528192899472
@@ -234,6 +238,36 @@ MonoBehaviour:
     color2: {r: 0.77647, g: 0.77647, b: 0.77647, a: 1}
   - color1: {r: 0.18823, g: 0.18823, b: 0.18823, a: 1}
     color2: {r: 0.15686, g: 0.15686, b: 0.15686, a: 1}
+  - color1: {r: 0, g: 0, b: 0, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+  - color1: {r: 1, g: 1, b: 1, a: 1}
+    color2: {r: 1, g: 1, b: 1, a: 1}
+  - color1: {r: 1, g: 1, b: 1, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+  - color1: {r: 0.09019608, g: 0.9725491, b: 1, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+  - color1: {r: 0.09019608, g: 1, b: 0.48627454, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+  - color1: {r: 1, g: 0.19607845, b: 0.09019608, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+  - color1: {r: 1, g: 0.85098046, b: 0.09019608, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+  - color1: {r: 1, g: 0.09019608, b: 0.8980393, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+  - color1: {r: 0.09019608, g: 0.5529412, b: 1, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+  - color1: {r: 1, g: 0.36862746, b: 0.078431375, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+  - color1: {r: 1, g: 0, b: 0.46274513, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+  - color1: {r: 0.8352942, g: 1, b: 0.09019608, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+  - color1: {r: 0.65882355, g: 0.09019608, b: 1, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+  - color1: {r: 1, g: 0.6862745, b: 0.078431375, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
+  - color1: {r: 0.48235297, g: 0.14117648, b: 0.09411766, a: 1}
+    color2: {r: 0, g: 0, b: 0, a: 1}
   gradientFlipProbability: 0.5
   randomMaxRotation: 0.45
   randomCheckerboardScale: {x: 0.25, y: 3}
