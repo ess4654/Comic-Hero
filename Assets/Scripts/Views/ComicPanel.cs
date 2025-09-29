@@ -502,17 +502,6 @@ namespace ComicHero.Views
         private SpriteRenderer comic;
         private MaterialPropertyBlock props;
 
-        //private const string KEYWORD_SELECTOR_A = "_FILL_SELECTOR_A";
-        //private const string KEYWORD_SELECTOR_B = "_FILL_SELECTOR_B";
-        //private const string KEYWORD_SOLID = "_FILL_TYPE_SOLID";
-        //private const string KEYWORD_GRADIENT = "_FILL_TYPE_GRADIENT";
-        //private const string KEYWORD_TEXTURE = "_FILL_TYPE_TEXTURE";
-        //private const string KEYWORD_STRIPE = "_FILL_TYPE_STRIPE";
-        //private const string KEYWORD_CHECKERBOARD = "_FILL_TYPE_CHECKERBOARD";
-        //private const string KEYWORD_RADIAL = "_FILL_TYPE_RADIAL";
-        //private const string KEYWORD_STARS = "_FILL_TYPE_2_STARS";
-        //private const string KEYWORD_POKA_DOTS = "_FILL_TYPE_2_POKA_DOT";
-
         #endregion
 
         #region ENGINE
@@ -538,17 +527,6 @@ namespace ComicHero.Views
                 comic.GetPropertyBlock(props);
 
                 props.SetTexture("_MainTex", comic.sprite.texture);
-
-                //comic.material.DisableKeyword(KEYWORD_SELECTOR_A);
-                //comic.material.DisableKeyword(KEYWORD_SELECTOR_B);
-                //comic.material.DisableKeyword(KEYWORD_SOLID);
-                //comic.material.DisableKeyword(KEYWORD_GRADIENT);
-                //comic.material.DisableKeyword(KEYWORD_TEXTURE);
-                //comic.material.DisableKeyword(KEYWORD_STRIPE);
-                //comic.material.DisableKeyword(KEYWORD_CHECKERBOARD);
-                //comic.material.DisableKeyword(KEYWORD_RADIAL);
-                //comic.material.DisableKeyword(KEYWORD_STARS);
-                //comic.material.DisableKeyword(KEYWORD_POKA_DOTS);
 
                 if (fillType == FillType.Solid)
                     SetSolidColor();
