@@ -1,5 +1,5 @@
-using Assets.Scripts.Views;
 using ComicHero.Controllers;
+using ComicHero.Views.Comic;
 using UnityEngine;
 
 namespace ComicHero.Views.UI

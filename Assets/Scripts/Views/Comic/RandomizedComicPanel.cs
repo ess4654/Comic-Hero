@@ -1,14 +1,11 @@
-using Assets.Scripts.Views;
-using System.Linq;
 using UnityEngine;
-using static ComicHero.Views.ComicPanel;
+using static ComicHero.Views.Comic.ComicPanel;
 
-namespace ComicHero.Views
+namespace ComicHero.Views.Comic
 {
     /// <summary>
     ///     Randomizes the graphics for each comic panel.
     /// </summary>
-    [RequireComponent (typeof(ComicPanel))]
     public class RandomizedComicPanel : ComicComponent
     {
         #region VARIABLE DECLARATIONS

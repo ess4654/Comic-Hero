@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace ComicHero.Views
+namespace ComicHero.Views.Comic
 {
     [ExecuteInEditMode]
     [RequireComponent(typeof(SpriteRenderer))]
@@ -105,6 +105,7 @@ namespace ComicHero.Views
         [Header("Color")]
         [SerializeField] private Color solidColor = Color.white;
         [SerializeField] private GradientSetting gradientColor;
+        [SerializeField] private float hueShift;
 
         [Header("Texture")]
         [SerializeField] private Texture texture;
@@ -245,6 +246,19 @@ namespace ComicHero.Views
             set
             {
                 gradientColor = value;
+                isDirty = true;
+            }
+        }
+
+        /// <summary>
+        ///     Shifts the hue of the comic panel.
+        /// </summary>
+        public float Hue
+        {
+            get => hueShift;
+            set
+            {
+                hueShift = value;
                 isDirty = true;
             }
         }
@@ -527,6 +541,7 @@ namespace ComicHero.Views
                 comic.GetPropertyBlock(props);
 
                 props.SetTexture("_MainTex", comic.sprite.texture);
+                props.SetFloat("_Hue", hueShift);
 
                 if (fillType == FillType.Solid)
                     SetSolidColor();

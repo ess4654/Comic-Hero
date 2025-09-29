@@ -1,7 +1,6 @@
-﻿using ComicHero.Views;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Assets.Scripts.Views
+namespace ComicHero.Views.Comic
 {
     /// <summary>
     ///     Base class used by all comic components.
