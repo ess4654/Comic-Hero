@@ -1,16 +1,22 @@
 using System;
 using UnityEngine;
+using static ComicHero.Data.Constants;
 
 namespace ComicHero.Data
 {
+    /// <summary>
+    ///     Container of data for the player.
+    /// </summary>
     [Serializable]
     public class PlayerData
     {
-        public const float MaxHealth = 100;
-        public const int MaxLives = 3;
+        #region VARIABLE DECLARATIONS
 
         public float health = MaxHealth;
         public int lives = MaxLives;
+        public PlayerColors color = AvailablePlayerColors.SelectRandom();
+
+        #endregion
 
         public void TakeDamage(float damage, Action onDead)
         {
@@ -24,10 +30,7 @@ namespace ComicHero.Data
 
         public void Die() => lives--;
 
-        public void ResetHealth()
-        {
-            health = MaxHealth;
-        }
+        public void ResetHealth() => health = MaxHealth;
 
         public void Reset()
         {

@@ -1,4 +1,5 @@
 using ComicHero.Data;
+using ComicHero.Views.UI;
 using System;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -29,8 +30,13 @@ namespace ComicHero.Controllers
         [SerializeField] private SpriteRenderer sprite;
         [SerializeField] private PlayerAnimator animator;
         [SerializeField] private WeaponManager weaponManager;
-        [SerializeField] private WeaponManager ui;
+        [SerializeField] private PlayerUI ui;
         [SerializeField] private PlayerData data;
+
+        /// <summary>
+        ///     The color of the player.
+        /// </summary>
+        public PlayerColors Color => data.color;
 
         /// <summary>
         ///     The world position of the player.

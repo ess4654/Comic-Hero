@@ -6,7 +6,7 @@ namespace ComicHero.Controllers
     ///     Controls the weapons.
     /// </summary>
     [RequireComponent(typeof(Player))]
-    public class WeaponManager : MonoBehaviour
+    public class WeaponManager : PlayerComponent
     {
         [SerializeField] private Transform weaponSlot;
         [SerializeField] private SpriteRenderer weapon;
@@ -16,12 +16,11 @@ namespace ComicHero.Controllers
         [SerializeField] private AudioSource soundFX;
         [SerializeField] private AudioClip[] weaponSounds;
 
-        private Player player;
         private float xOffset;
 
-        private void Awake()
+        protected override void Awake()
         {
-            player = GetComponent<Player>();
+            base.Awake();
             if(projectileSpawnPoint != null)
                 xOffset = projectileSpawnPoint.localPosition.x;
         }
@@ -31,10 +30,10 @@ namespace ComicHero.Controllers
             if(!GameController.IsGameOver)
             {
                 if (projectileSpawnPoint != null)
-                    projectileSpawnPoint.localPosition = new Vector3(xOffset * player.Facing, projectileSpawnPoint.localPosition.y, projectileSpawnPoint.localPosition.z);
+                    projectileSpawnPoint.localPosition = new Vector3(xOffset * Facing, projectileSpawnPoint.localPosition.y, projectileSpawnPoint.localPosition.z);
             
                 if(weapon != null)
-                    weapon.flipX = player.Facing == -1;
+                    weapon.flipX = Facing == -1;
             }
         }
 
@@ -45,7 +44,7 @@ namespace ComicHero.Controllers
             projectileBody.transform.localEulerAngles = new Vector3(0, 0, projectileBody.transform.localEulerAngles.z * player.Facing);
             projectileBody.transform.SetParent(null, true);
             var scale = projectileBody.transform.localScale.x;
-            projectileBody.transform.localScale = new Vector3(player.Facing * scale, scale, scale);
+            projectileBody.transform.localScale = new Vector3(Facing * scale, scale, scale);
 
             projectileBody.AddForce(new Vector2(projectileLaunchVelocity * player.Facing, 0));
 

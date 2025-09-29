@@ -44,7 +44,7 @@ namespace ComicHero.Views.UI
 
             var player = isLeft ? PlayerManager.Instance.LeftPlayer : PlayerManager.Instance.RightPlayer;
             var lives = player.Lives;
-            for(var i = 0; i < PlayerData.MaxLives; i++)
+            for(var i = 0; i < Constants.MaxLives; i++)
             {
                 bool on = i < lives;
                 transform.GetChild(i).gameObject.SetActive(on);

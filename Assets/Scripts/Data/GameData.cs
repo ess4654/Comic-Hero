@@ -1,3 +1,5 @@
+using System;
+
 namespace ComicHero.Data
 {
     /// <summary>
@@ -6,5 +8,7 @@ namespace ComicHero.Data
     public static class GameData
     {
         public static GameMode Mode = GameMode.EndlessRunner;
+
+        
     }
 }
