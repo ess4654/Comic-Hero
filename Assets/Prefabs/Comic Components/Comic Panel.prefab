@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 6121505033181529580}
   - component: {fileID: 5998526528192899472}
   - component: {fileID: 1942756070607913450}
+  - component: {fileID: 2112071702946773071}
   m_Layer: 0
   m_Name: Comic Panel
-  m_TagString: Untagged
+  m_TagString: Comic Panel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -115,7 +116,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 82adafa3f615c794582c1057bc2226aa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -215,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b35cf0762194584d98445ea33486400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  randomFills: 0000000001000000030000000400000005000000060000000700000002000000
+  randomFills: 000000000100000003000000040000000500000006000000070000000200000002000000
   gradientPresets:
   - color1: {r: 0.70588, g: 0.69411, b: 0.11372, a: 1}
     color2: {r: 0.67058, g: 0.58431, b: 0.16078, a: 1}
@@ -314,8 +315,37 @@ MonoBehaviour:
   randomRadialOffsetX: {x: -1, y: 1}
   randomRadialOffsetY: {x: -1, y: 1}
   randomFillTextures:
-  - {fileID: 2800000, guid: e26c200a6ceef124eb45ed32fad00da5, type: 3}
+  - {fileID: 2800000, guid: 8648cf8fe6593704fba4f0bbc6c6b795, type: 3}
+  - {fileID: 2800000, guid: ea3f9518b9b2a594498689abc636119b, type: 3}
+  - {fileID: 2800000, guid: 94c22c2fa9044464d9161c24b89a3889, type: 3}
+  - {fileID: 2800000, guid: 813c126853fba4b47aeaa98d6952a14c, type: 3}
+  - {fileID: 2800000, guid: 82d6d3c4d76364c4c901f1675eae6be1, type: 3}
+  - {fileID: 2800000, guid: 157cc3646ee96c742a007f277852a29d, type: 3}
+  - {fileID: 2800000, guid: 3b976cd30a1e0b344b048f5dad720ab4, type: 3}
+  - {fileID: 2800000, guid: acbc4af593464bd4faa541ea8041a9f5, type: 3}
+  - {fileID: 2800000, guid: ae711711ba65e8646aa015307213da92, type: 3}
+  - {fileID: 2800000, guid: c29eccfae2413614da900737b31fb5c6, type: 3}
+  - {fileID: 2800000, guid: e16d776a3aa45654a99b7ea80e7315ae, type: 3}
+  - {fileID: 2800000, guid: 1f527c60b7c34eb4f969717ace0de9e3, type: 3}
+  - {fileID: 2800000, guid: 1663180711927214c829d2ad378a577d, type: 3}
+  - {fileID: 2800000, guid: a3b423400d48e124480a60f518d89fb0, type: 3}
+  - {fileID: 2800000, guid: b64c9f9d4f5f1654681e4ef4c741ace6, type: 3}
+  - {fileID: 2800000, guid: 88df1dcddcf523c46b1a4838a27bbfa1, type: 3}
+  - {fileID: 2800000, guid: 14118763897fd6041a1ae695f94ae50d, type: 3}
+  - {fileID: 2800000, guid: ef6cfc46e49095a4f9dff86ab79fa1be, type: 3}
+  - {fileID: 2800000, guid: 2db7d5fa1a5e6594c8668575be592b15, type: 3}
+  - {fileID: 2800000, guid: 4065bcff8725bea40aa30506b6822160, type: 3}
+  - {fileID: 2800000, guid: c8972476379baba4880656406a9902dd, type: 3}
+  - {fileID: 2800000, guid: 6c386b06af8c23b4d9b811576fa307c7, type: 3}
+  - {fileID: 2800000, guid: 7ddcefe5f68146b4899a71e52edc5d4c, type: 3}
+  - {fileID: 2800000, guid: 353bd99054efbd144b2bbe8ef365504b, type: 3}
+  - {fileID: 2800000, guid: 56311eae072841e4fb5a54ca9e70a129, type: 3}
+  - {fileID: 2800000, guid: b23baa6910978f447be8daaae7eacaf7, type: 3}
   - {fileID: 2800000, guid: 5d14826ecccc7e641b24ce3b74527545, type: 3}
+  - {fileID: 2800000, guid: de099a30956b30b44bbc8c7d11a4c7a1, type: 3}
+  - {fileID: 2800000, guid: dc9dbf471b938f942b44613325c34c47, type: 3}
+  - {fileID: 2800000, guid: 4809702ca776cb043a3f536b086644bf, type: 3}
+  - {fileID: 2800000, guid: e26c200a6ceef124eb45ed32fad00da5, type: 3}
 --- !u!114 &1942756070607913450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,3 +359,54 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSpeed: 1
+--- !u!60 &2112071702946773071
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3805807366278863547}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.5, y: 0.5}
+      - {x: -0.5, y: -0.5}
+      - {x: 0.5, y: -0.5}
+      - {x: 0.5, y: 0.5}
+  m_UseDelaunayMesh: 0

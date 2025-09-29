@@ -288,6 +288,71 @@ MonoBehaviour:
   panel1Mount: {fileID: 1605142760}
   panel2Mount: {fileID: 92773792}
   panel3Mount: {fileID: 1954188516}
+--- !u!1001 &534604407
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 493529922128378422, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2272.284
+      objectReference: {fileID: 0}
+    - target: {fileID: 493529922128378422, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.1098351
+      objectReference: {fileID: 0}
+    - target: {fileID: 493529922128378422, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493529922128378422, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 493529922128378422, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493529922128378422, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493529922128378422, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493529922128378422, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493529922128378422, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493529922128378422, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241525748631281384, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
+      propertyPath: texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 5d14826ecccc7e641b24ce3b74527545, type: 3}
+    - target: {fileID: 3241525748631281384, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
+      propertyPath: fillType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202939813609919, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
+      propertyPath: m_Name
+      value: Comic Panel 21
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e5d6959d7fee9b419f3923b30fc1785, type: 3}
 --- !u!1 &744056046
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,6 +682,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 915634119}
   m_CullTransparentMesh: 1
+--- !u!1001 &1094182447
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1002925424595256273, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2271.473
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002925424595256273, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.946
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002925424595256273, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002925424595256273, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002925424595256273, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002925424595256273, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002925424595256273, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002925424595256273, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002925424595256273, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002925424595256273, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868357535398274831, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
+      propertyPath: texture
+      value: 
+      objectReference: {fileID: 2800000, guid: dc9dbf471b938f942b44613325c34c47, type: 3}
+    - target: {fileID: 2868357535398274831, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
+      propertyPath: fillType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5182928748477577304, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
+      propertyPath: m_Name
+      value: Comic Panel 9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ff0bff531f3a3d1468c4bb2f42e0596b, type: 3}
 --- !u!1 &1167495568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1562,3 +1692,5 @@ SceneRoots:
   - {fileID: 3306026600282663553}
   - {fileID: 179468318225464073}
   - {fileID: 8889893075519256772}
+  - {fileID: 534604407}
+  - {fileID: 1094182447}
