@@ -1,0 +1,18 @@
+﻿using UnityEngine;
+
+namespace ComicHero.Controllers
+{
+    /// <summary>
+    ///     Base class used by all scripts that evaluate a probability.
+    /// </summary>
+    public abstract class RandomEvaluator : MonoBehaviour
+    {
+        protected bool CheckProbability(float probability) => Random.value <= Mathf.Clamp01(probability);
+        
+        protected bool FiftyFifty => CheckProbability(0.5f);
+
+        protected float Range(float min, float max) => Random.Range(min, max);
+
+        protected float Range(int min, int max) => Random.Range(min, max);
+    }
+}

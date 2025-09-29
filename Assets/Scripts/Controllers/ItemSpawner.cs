@@ -5,9 +5,8 @@ namespace ComicHero.Controllers
     /// <summary>
     ///     Manages spawning of items.
     /// </summary>
-    public class ItemSpawner : MonoBehaviour
+    public class ItemSpawner : RandomSpawner
     {
-        [SerializeField, Min(0)] private float spawnProbability = 0.5f;
         [SerializeField] private GameObject[] items;
 
         private static Transform spawnBin;
@@ -26,7 +25,7 @@ namespace ComicHero.Controllers
 
         private void PanelsLoaded()
         {
-            if(Random.value > Mathf.Clamp01(spawnProbability))
+            if(!Spawn)
             {
                 Destroy(gameObject);
                 return;

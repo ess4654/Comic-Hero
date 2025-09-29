@@ -7,7 +7,7 @@ namespace ComicHero.Views
     /// </summary>
     public abstract class LoopingLeanTween : MonoBehaviour
     {
-        public bool IsLooping { get; private set; }
+        public virtual bool IsLooping { get; protected set; }
 
         #region ENGINE
 

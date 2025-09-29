@@ -333,6 +333,10 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3164613995929394406, guid: da6b50fd2ead1884a9d14c848dfa8745, type: 3}
+      propertyPath: disableVehicles
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4770451573452059769, guid: da6b50fd2ead1884a9d14c848dfa8745, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.93199325
