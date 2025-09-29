@@ -21,6 +21,8 @@ namespace ComicHero.Controllers.Game
 
         [SerializeField] private GameObject[] grafittiWalls;
 
+        private const float minWallScale = 0.5f;
+
         #endregion
 
         public void SpawnScenery()
@@ -32,7 +34,15 @@ namespace ComicHero.Controllers.Game
                 var wall = Instantiate(grafittiWalls.SelectRandom());
                 wall.transform.position = transform.position;
                 wall.transform.eulerAngles = new Vector3(0, 0, transform.eulerAngles.z);
+
+                //scale the vehicle
+                if (CheckScale(minWallScale))
+                    wall.transform.localScale = Range(minWallScale, 1) * Vector3.one;
             }
         }
+
+        #region ENGINE
+
+        #endregion
     }
 }

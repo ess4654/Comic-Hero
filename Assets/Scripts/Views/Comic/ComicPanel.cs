@@ -106,6 +106,7 @@ namespace ComicHero.Views.Comic
         [SerializeField] private Color solidColor = Color.white;
         [SerializeField] private GradientSetting gradientColor;
         [SerializeField] private float hueShift;
+        [SerializeField] private float saturation = 1;
 
         [Header("Texture")]
         [SerializeField] private Texture texture;
@@ -259,6 +260,19 @@ namespace ComicHero.Views.Comic
             set
             {
                 hueShift = value;
+                isDirty = true;
+            }
+        }
+
+        /// <summary>
+        ///     Shifts the saturation of the comic panel.
+        /// </summary>
+        public float Saturation
+        {
+            get => hueShift;
+            set
+            {
+                saturation = value;
                 isDirty = true;
             }
         }
@@ -542,6 +556,7 @@ namespace ComicHero.Views.Comic
 
                 props.SetTexture("_MainTex", comic.sprite.texture);
                 props.SetFloat("_Hue", hueShift);
+                props.SetFloat("_Saturation", saturation);
 
                 if (fillType == FillType.Solid)
                     SetSolidColor();
