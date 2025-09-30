@@ -13,6 +13,6 @@ namespace ComicHero.Controllers
 
         protected float Range(float min, float max) => Random.Range(min, max);
 
-        protected float Range(int min, int max) => Random.Range(min, max);
+        protected int Range(int min, int max) => Random.Range(min, max);
     }
 }

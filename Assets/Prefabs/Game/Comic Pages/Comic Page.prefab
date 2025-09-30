@@ -345,7 +345,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7981578751385485714}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c614598b76017704e8f5de73c4a24e28, type: 3}
   m_Name: 
@@ -354,7 +354,20 @@ MonoBehaviour:
   spawnProbability: 0.5
   scaleProbability: 0.5
   stickers:
-  - {fileID: 0}
+  - {fileID: 6576782331256970846, guid: 86d99d11418be384f978678d94c0698c, type: 3}
+  - {fileID: 6761590199226370313, guid: 1451656f2ef5fba49aacb42a1ce6200d, type: 3}
+  - {fileID: 6552206777213696015, guid: 534abc1350622a349bd96e6df688ecbe, type: 3}
+  - {fileID: 4242446938418484696, guid: 3cb71e99a72f83049ad96afbd2b920af, type: 3}
+  - {fileID: 4079751957242366300, guid: e45568cd13fd56f41b6a39cc35d6a687, type: 3}
+  - {fileID: 1991903868943842869, guid: 379d4a74b2242c3408384c04d9b182cf, type: 3}
+  - {fileID: 5779612726171730173, guid: e07930e011d5533459afd0834758cf87, type: 3}
+  - {fileID: 7079451465168122750, guid: 9ce1a03f8721e1540a6bc9fda79bbe5e, type: 3}
+  - {fileID: 2156006750149739491, guid: 85488fd00e387e94b89b0320a900a6c8, type: 3}
+  - {fileID: 4640488976358369652, guid: f591bc3b2201b6c49967bb62c6faa330, type: 3}
+  - {fileID: 4675444379338147630, guid: e042f3ba93472f949b5452c3575118c9, type: 3}
+  - {fileID: 5923446430308206652, guid: f102b24828e9d29479ae084f4b556859, type: 3}
+  - {fileID: 3774759584988514839, guid: 47eb17e1bdd0c464a8a929a4eca45a4c, type: 3}
+  - {fileID: 3202073070283585023, guid: ff7ec66a9132a3a4f9dce17d74298c9f, type: 3}
 --- !u!1001 &6199886580882748504
 PrefabInstance:
   m_ObjectHideFlags: 0
