@@ -7,7 +7,9 @@ namespace ComicHero.Controllers
     /// </summary>
     public abstract class RandomEvaluator : MonoBehaviour
     {
-        protected bool CheckProbability(float probability) => Random.value <= Mathf.Clamp01(probability);
+        protected float RandomValue => Random.value;
+
+        protected bool CheckProbability(float probability) => RandomValue <= Mathf.Clamp01(probability);
         
         protected bool FiftyFifty => CheckProbability(0.5f);
 

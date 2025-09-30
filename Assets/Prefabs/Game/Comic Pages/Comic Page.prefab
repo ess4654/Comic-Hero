@@ -368,6 +368,8 @@ MonoBehaviour:
   - {fileID: 5923446430308206652, guid: f102b24828e9d29479ae084f4b556859, type: 3}
   - {fileID: 3774759584988514839, guid: 47eb17e1bdd0c464a8a929a4eca45a4c, type: 3}
   - {fileID: 3202073070283585023, guid: ff7ec66a9132a3a4f9dce17d74298c9f, type: 3}
+  maxStickers: 4
+  maxRotation: 15
 --- !u!1001 &6199886580882748504
 PrefabInstance:
   m_ObjectHideFlags: 0

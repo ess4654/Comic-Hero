@@ -5,5 +5,11 @@
     /// </summary>
     public enum Villains
     {
+        Snake,
+        Stegosaurus,
+        Triceretops,
+        Trex,
+        Raptor,
+        Dog
     }
 }
