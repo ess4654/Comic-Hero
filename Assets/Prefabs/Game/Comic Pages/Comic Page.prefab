@@ -32,6 +32,7 @@ Transform:
   m_Children:
   - {fileID: 6651559048915000238}
   - {fileID: 1273599321634046501}
+  - {fileID: 6004048792372975450}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &884450046101811627
@@ -305,6 +306,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1273599321634046501}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7981578751385485714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6004048792372975450}
+  - component: {fileID: 1663278859823336430}
+  m_Layer: 0
+  m_Name: Sticker Spawn Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6004048792372975450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981578751385485714}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2428426686563430026}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1663278859823336430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981578751385485714}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c614598b76017704e8f5de73c4a24e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableSpawn: 0
+  spawnProbability: 0.5
+  scaleProbability: 0.5
+  stickers:
+  - {fileID: 0}
 --- !u!1001 &6199886580882748504
 PrefabInstance:
   m_ObjectHideFlags: 0
