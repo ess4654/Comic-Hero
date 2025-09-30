@@ -5,12 +5,14 @@ namespace ComicHero.Data
     /// </summary>
     public enum Heroes
     {
-        StickFigure,
-        Dragon,
+        StickFigureMan,
+        VincentTheDragon,
+        RaytraxTheDragon,
         Lizard,
         Turtle,
         Fox,
         Shark,
-        Bunny
+        Bunny,
+        CharlieTheGecko
     }
 }

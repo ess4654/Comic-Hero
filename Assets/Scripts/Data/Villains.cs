@@ -5,11 +5,13 @@
     /// </summary>
     public enum Villains
     {
-        Snake,
-        Stegosaurus,
-        Triceretops,
-        Trex,
-        Raptor,
-        Dog
+        ViperMan,
+        StegosaurusMan,
+        TriceretopsMan,
+        TrexMan,
+        RaptorMan,
+        DogMan,
+        CobraMan,
+        RaytraxTheDragon
     }
 }

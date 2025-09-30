@@ -13,3 +13,7 @@ Prompt: generate clipart of a super hyper muscular <species> anthro
 Prompt: generate clipart of a super hyper ripped muscular <species> anthro
 
 Prompt: generate clipart of a mega super hyper ripped muscular <species> anthro
+
+Raytrax:
+generate clipart of a muscular exveemon with dragon scales
+using this image as reference generate clipart of a super mega hyper ripped muscular exveemon with dragon scales and massive pecs jumping

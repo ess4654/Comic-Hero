@@ -9,9 +9,11 @@
         Teal,
         Green,
         Purple,
+        Majenta,
         Red,
         Yellow,
         Orange,
-        Black
+        Black,
+        White
     }
 }

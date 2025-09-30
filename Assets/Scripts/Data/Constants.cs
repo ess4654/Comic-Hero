@@ -5,7 +5,10 @@
     /// </summary>
     public static class Constants
     {
-        public const float MaxHealth = 100;
+        public const float MaxHealth = 200;
+        public const float MaxPunchDamage = 10;
+        public const int MaxSpeed = 10;
+        public const int MaxJumpForce = 12;
         public const int MaxLives = 3;
 
         /// <summary>

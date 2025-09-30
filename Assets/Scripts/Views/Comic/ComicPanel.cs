@@ -107,6 +107,9 @@ namespace ComicHero.Views.Comic
         [SerializeField] private GradientSetting gradientColor;
         [SerializeField] private float hueShift;
         [SerializeField] private float saturation = 1;
+        [SerializeField] private float contrast = 1;
+        [SerializeField] private float brightness = 1;
+        [SerializeField] private bool invert;
 
         [Header("Texture")]
         [SerializeField] private Texture texture;
@@ -273,6 +276,45 @@ namespace ComicHero.Views.Comic
             set
             {
                 saturation = value;
+                isDirty = true;
+            }
+        }
+
+        /// <summary>
+        ///     Shifts the contrast of the comic panel.
+        /// </summary>
+        public float Contrast
+        {
+            get => contrast;
+            set
+            {
+                contrast = value;
+                isDirty = true;
+            }
+        }
+
+        /// <summary>
+        ///     Inverts the color of the comic panel.
+        /// </summary>
+        public bool Invert
+        {
+            get => invert;
+            set
+            {
+                invert = value;
+                isDirty = true;
+            }
+        }
+
+        /// <summary>
+        ///     Shifts the brightness of the comic panel.
+        /// </summary>
+        public float Brightness
+        {
+            get => brightness;
+            set
+            {
+                brightness = value;
                 isDirty = true;
             }
         }
@@ -557,6 +599,9 @@ namespace ComicHero.Views.Comic
                 props.SetTexture("_MainTex", comic.sprite.texture);
                 props.SetFloat("_Hue", hueShift);
                 props.SetFloat("_Saturation", saturation);
+                props.SetFloat("_Contrast", contrast);
+                props.SetFloat("_Brightness", brightness);
+                props.SetInt("_Invert", invert ? 1 : 0);
 
                 if (fillType == FillType.Solid)
                     SetSolidColor();
