@@ -44,8 +44,9 @@ namespace ComicHero.Views.UI
             var player1Position = PlayerManager.Instance.GetPlayerPosition(0);
             var player2Position = PlayerManager.Instance.GetPlayerPosition(1);
             var angle = Vector3.SignedAngle(player1Position, player2Position, Vector3.forward) * 100;
-         
-            if(Mathf.Abs(angle) > threshold)
+            angle = Mathf.Clamp(angle, -35, 35);
+
+            if (Mathf.Abs(angle) > threshold)
                 activeCamera.transform.localEulerAngles = new Vector3(0, 0, -angle * (flip ? -1 : 1));
         }
     }

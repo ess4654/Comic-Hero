@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 9
+  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -105,11 +105,13 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
+    - _Brightness: 1
     - _BumpScale: 1
     - _CheckerboardRotation: 0
     - _CheckerboardScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _Contrast: 1
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -122,6 +124,8 @@ Material:
     - _GlossyReflections: 0
     - _GradientOffset: 0
     - _GradientRotation: 0
+    - _Hue: 0
+    - _Invert: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -131,6 +135,7 @@ Material:
     - _RadialRotation: 0
     - _RadialThickness: 1
     - _ReceiveShadows: 1
+    - _Saturation: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

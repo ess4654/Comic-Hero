@@ -65,7 +65,9 @@ namespace ComicHero.Controllers
                     player.Flip();
                 if(i < playerCameraTextures.Length)
                     player.SetCameraTexture(playerCameraTextures[i]);
-                
+                player.GetComponentInChildren<PlayerAnimator>().SetAnimation(i);
+
+
                 Players.Add(player);
             }
         }
